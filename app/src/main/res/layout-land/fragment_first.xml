@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment"
+    >
+
+
+
+        <ImageView
+            android:id="@+id/board"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/board"
+            tools:ignore="MissingConstraints"
+            android:adjustViewBounds ="true"
+            />
+
+    <ImageButton
+        android:id="@+id/redchip"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/redchip"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <ImageButton
+            android:id="@+id/greenchip"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/greenchip"
+            android:layout_toEndOf="@id/redchip"
+            android:layout_toRightOf="@id/redchip"
+            app:layout_constraintStart_toEndOf="@+id/redchip"
+            app:layout_constraintBottom_toBottomOf="@+id/redchip"
+            tools:ignore="MissingConstraints"
+            android:layout_marginLeft="10dp" />
+        <ImageButton
+            android:id="@+id/bluechip"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bluechip"
+            app:layout_constraintStart_toEndOf="@+id/greenchip"
+            app:layout_constraintBottom_toBottomOf="@+id/greenchip"
+            android:layout_marginLeft="10dp"
+            tools:ignore="MissingConstraints"
+            />
+        <ImageButton
+            android:id="@+id/graychip"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/graychip"
+            app:layout_constraintStart_toEndOf="@+id/bluechip"
+            app:layout_constraintBottom_toBottomOf="@+id/bluechip"
+            android:layout_marginLeft="10dp"
+            tools:ignore="MissingConstraints"
+            />
+        <ImageButton
+            android:id="@+id/orangechip"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/orangechip"
+            app:layout_constraintStart_toEndOf="@+id/graychip"
+            app:layout_constraintBottom_toBottomOf="@+id/graychip"
+            android:layout_marginLeft="10dp"
+            tools:ignore="MissingConstraints"
+            />
+        <ImageButton
+            android:id="@+id/blackchip"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/blackchip"
+            app:layout_constraintStart_toEndOf="@+id/orangechip"
+            app:layout_constraintBottom_toBottomOf="@+id/orangechip"
+            android:layout_marginLeft="10dp"
+            tools:ignore="MissingConstraints"
+            />
+
+
+
+         <Button
+             android:id="@+id/button_first"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/next"
+             tools:ignore="MissingConstraints"
+             app:layout_constraintTop_toBottomOf="@+id/blackchip"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
