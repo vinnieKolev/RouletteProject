@@ -25,7 +25,7 @@
         android:background="@drawable/redchip"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="169dp" />
+        tools:layout_editor_absoluteY="67dp" />
 
     <ImageButton
             android:id="@+id/greenchip"

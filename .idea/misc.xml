@@ -4,12 +4,34 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.192" />
+        <entry key="app/src/main/res/drawable/blacknumber.xml" value="0.159" />
+        <entry key="app/src/main/res/drawable/blacknumberbl.xml" value="0.2095" />
+        <entry key="app/src/main/res/drawable/blacknumberq.xml" value="0.2095" />
+        <entry key="app/src/main/res/drawable/blacknumberr.xml" value="0.2095" />
+        <entry key="app/src/main/res/drawable/blacknumbertl.xml" value="0.2095" />
+        <entry key="app/src/main/res/drawable/blackpiece.xml" value="0.2095" />
+        <entry key="app/src/main/res/drawable/blackpiece2.xml" value="0.2095" />
+        <entry key="app/src/main/res/drawable/blackround.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/blackspecial.xml" value="0.237" />
+        <entry key="app/src/main/res/drawable/blackspecial2.xml" value="0.237" />
+        <entry key="app/src/main/res/drawable/greenround.xml" value="0.179" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2565" />
-        <entry key="app/src/main/res/layout-land/fragment_first.xml" value="0.10043582546227403" />
+        <entry key="app/src/main/res/drawable/rednumber.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/rednumberbl.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/rednumberq.xml" value="0.2095" />
+        <entry key="app/src/main/res/drawable/rednumbertl.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/redpiece.xml" value="0.2095" />
+        <entry key="app/src/main/res/drawable/redpiece2.xml" value="0.2095" />
+        <entry key="app/src/main/res/drawable/redround.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/redspecial.xml" value="0.237" />
+        <entry key="app/src/main/res/drawable/redspecial2.xml" value="0.237" />
+        <entry key="app/src/main/res/drawable/roundedcorner.xml" value="0.2405" />
+        <entry key="app/src/main/res/drawable/splitnumber.xml" value="0.1605" />
+        <entry key="app/src/main/res/layout-land/fragment_first.xml" value="0.2786151123046875" />
         <entry key="app/src/main/res/layout-sw600dp/fragment_first.xml" value="0.28203125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.37604166666666666" />
-        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.23305382846800748" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/menu/menu_main.xml" value="0.315625" />
       </map>

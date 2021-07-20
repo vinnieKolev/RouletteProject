@@ -5,90 +5,1498 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FirstFragment"
+    android:background="@color/offblack"
     >
 
+    <ImageView
+        android:id="@+id/one"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberbl"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <ImageView
+        android:id="@+id/oneS2"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumbertl"
+        app:layout_constraintBottom_toTopOf="@+id/one"
+        app:layout_constraintEnd_toStartOf="@+id/oneQ"
+         tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        />
+    <ImageView
+        android:id="@+id/oneS4"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberr"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/one"
+        app:layout_constraintBottom_toBottomOf="@+id/one"
+         />
+
+    <ImageView
+        android:id="@+id/two"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberbl"
+        app:layout_constraintBottom_toTopOf="@+id/oneS2"
+        app:layout_constraintEnd_toEndOf="@+id/oneS2"
+        app:layout_constraintStart_toStartOf="@+id/oneS2"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/twoS3"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumbertl"
+        app:layout_constraintBottom_toTopOf="@+id/two"
+        app:layout_constraintEnd_toStartOf="@+id/twoQ"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/twoQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumberq"
+        app:layout_constraintBottom_toTopOf="@+id/two"
+        app:layout_constraintStart_toEndOf="@+id/two"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/three"
+        android:layout_width="20dp"
+        android:background="@drawable/redpiece"
+        android:layout_height="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/twoS3"
+        app:layout_constraintEnd_toStartOf="@+id/threeS6"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/threeS6"
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:background="@drawable/redpiece2"
+        tools:ignore="MissingConstraints"
+
+        app:layout_constraintStart_toEndOf="@+id/one"
+        app:layout_constraintBottom_toTopOf="@+id/twoQ"
+         />
+    <ImageView
+        android:id="@+id/oneQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/one"
+        app:layout_constraintBottom_toTopOf="@+id/one"
+         />
+    <ImageView
+        android:id="@+id/twoS5"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberr"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/two"
+        app:layout_constraintBottom_toTopOf="@+id/oneQ"
+         />
+    <ImageView
+        android:id="@+id/four"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberbl"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/oneS4"
+        app:layout_constraintBottom_toBottomOf="@+id/oneS4"
+         />
+    <ImageView
+        android:id="@+id/fourS5"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumbertl"
+        app:layout_constraintBottom_toTopOf="@+id/four"
+        app:layout_constraintStart_toEndOf="@+id/oneQ"
+
+        tools:ignore="MissingConstraints"/>
+     <ImageView
+        android:id="@+id/fourS7"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberr"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/four"
+        app:layout_constraintBottom_toBottomOf="@+id/four"
+         />
+    <ImageView
+        android:id="@+id/five"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberbl"
+        app:layout_constraintStart_toEndOf="@+id/twoS5"
+        app:layout_constraintBottom_toBottomOf="@+id/twoS5"
+        tools:ignore="MissingConstraints"/>
 
 
-        <ImageView
-            android:id="@+id/board"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/board"
-            tools:ignore="MissingConstraints"
-            android:adjustViewBounds ="true"
-            />
+     <ImageView
+        android:id="@+id/six"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:background="@drawable/blackpiece"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/threeS6"
+        app:layout_constraintBottom_toTopOf="@+id/fiveS6"
+         />
+    <ImageView
+        android:id="@+id/fiveS6"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumbertl"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toTopOf="@+id/five"
+        app:layout_constraintStart_toEndOf="@+id/twoQ"
 
-    <ImageButton
+         />
+    <ImageView
+        android:id="@+id/nineteenQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/nineteen"
+        app:layout_constraintBottom_toTopOf="@+id/nineteen"
+         />
+    <ImageView
+        android:id="@+id/sevenS10"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberr"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/seven"
+        app:layout_constraintTop_toBottomOf="@+id/sevenQ"
+         />
+    <ImageView
+        android:id="@+id/twentyQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/twenty"
+        app:layout_constraintBottom_toTopOf="@+id/twenty"
+         />
+    <ImageView
+        android:id="@+id/twentyoneS24"
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:background="@drawable/redpiece2"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/twentone"
+        app:layout_constraintBottom_toTopOf="@+id/twentyQ"
+
+         />
+    <ImageView
+        android:id="@+id/seven"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/rednumberbl"
+
+        app:layout_constraintStart_toEndOf="@+id/fourS7"
+        app:layout_constraintTop_toBottomOf="@+id/fourQ"
+         />
+    <ImageView
+        android:id="@+id/sevenS8"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumbertl"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toTopOf="@+id/seven"
+        app:layout_constraintStart_toEndOf="@+id/fourQ"
+
+         />
+    <ImageView
+        android:id="@+id/sevenQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/seven"
+        app:layout_constraintBottom_toTopOf="@+id/seven"
+         />
+    <ImageView
+        android:id="@+id/nineS12"
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:background="@drawable/redpiece2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/nine"
+        app:layout_constraintBottom_toTopOf="@+id/eightQ"
+         />
+    <ImageView
+        android:id="@+id/eightQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/eight"
+        app:layout_constraintBottom_toTopOf="@+id/eight"
+         />
+    <ImageView
+        android:id="@+id/eight"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberbl"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/fiveS8"
+        app:layout_constraintBottom_toTopOf="@+id/fourQ"
+         />
+    <ImageView
+        android:id="@+id/ten"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberbl"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/sevenS10"
+        app:layout_constraintBottom_toBottomOf="@+id/sevenS10"
+
+        />
+    <ImageView
+        android:id="@+id/tenS11"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumbertl"
+        app:layout_constraintBottom_toTopOf="@+id/ten"
+        app:layout_constraintTop_toBottomOf="@+id/eleven"
+        app:layout_constraintStart_toEndOf="@+id/sevenQ"
+        tools:ignore="MissingConstraints"/>
+     <ImageView
+        android:id="@+id/twentyS23"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberr"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/twenty"
+        app:layout_constraintBottom_toTopOf="@+id/nineteenQ"
+         />
+    <ImageView
+        android:id="@+id/eleven"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberbl"
+        app:layout_constraintStart_toEndOf="@+id/eightS11"
+        app:layout_constraintBottom_toBottomOf="@+id/eightS11"
+        tools:ignore="MissingConstraints"/>
+
+
+     <ImageView
+        android:id="@+id/nine"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+         android:background="@drawable/redpiece"
+        app:layout_constraintBottom_toTopOf="@id/eightS9"
+        app:layout_constraintStart_toEndOf="@id/sixS9"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/eightS9"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumbertl"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toTopOf="@+id/eight"
+        app:layout_constraintStart_toEndOf="@+id/fourQ"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+         />
+    <ImageView
+        android:id="@+id/elevenQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/eleven"
+        app:layout_constraintBottom_toTopOf="@+id/eleven"
+         />
+    <ImageView
+        android:id="@+id/fiveS8"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberr"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/five"
+        app:layout_constraintBottom_toTopOf="@+id/fourQ"
+         />
+    <ImageView
+        android:id="@+id/tenQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/tenS11"
+        app:layout_constraintTop_toBottomOf="@+id/eleven"
+         />
+    <ImageView
+        android:id="@+id/twelve"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:background="@drawable/blackpiece"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/nineS12"
+        app:layout_constraintBottom_toTopOf="@+id/eightQ"
+         />
+    <ImageView
+        android:id="@+id/twelveS15"
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:background="@drawable/blackpiece2"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/twelve"
+        app:layout_constraintBottom_toTopOf="@+id/elevenQ"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+         />
+    <ImageView
+        android:id="@+id/elevenS12"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumbertl"
+        app:layout_constraintBottom_toTopOf="@+id/eleven"
+        app:layout_constraintStart_toEndOf="@+id/sevenQ"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="149dp"/>
+     <ImageView
+        android:id="@+id/elevenS14"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberr"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/eleven"
+        app:layout_constraintBottom_toBottomOf="@+id/eleven"
+         />
+    <ImageView
+        android:id="@+id/tenS13"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberr"
+        app:layout_constraintStart_toEndOf="@+id/ten"
+        app:layout_constraintBottom_toBottomOf="@+id/ten"
+        tools:ignore="MissingConstraints"/>
+
+
+     <ImageView
+        android:id="@+id/fifteen"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+         android:background="@drawable/redpiece"
+        app:layout_constraintBottom_toTopOf="@id/fourteenS15"
+        app:layout_constraintStart_toEndOf="@id/twelveS15"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/fourteenS15"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+          android:background="@drawable/blacknumbertl"
+
+        app:layout_constraintBottom_toTopOf="@+id/fourteen"
+        app:layout_constraintStart_toEndOf="@+id/elevenQ"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/fourteenQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/fourteen"
+        app:layout_constraintBottom_toTopOf="@+id/fourteen"
+         />
+    <ImageView
+        android:id="@+id/fourteenS17"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberr"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/fourteen"
+        app:layout_constraintBottom_toTopOf="@+id/thirteenQ"
+         />
+    <ImageView
+        android:id="@+id/thirteenQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/thirteen"
+        app:layout_constraintBottom_toTopOf="@+id/thirteen"
+         />
+    <ImageView
+        android:id="@+id/fourteen"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberbl"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/elevenS14"
+        app:layout_constraintBottom_toTopOf="@+id/tenQ"
+         />
+    <ImageView
+        android:id="@+id/fifteenS18"
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:background="@drawable/redpiece2"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/fifteen"
+        app:layout_constraintBottom_toTopOf="@+id/fourteenQ"
+         />
+    <ImageView
+        android:id="@+id/thirteenS16"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberr"
+        app:layout_constraintBottom_toBottomOf="@+id/thirteen"
+        app:layout_constraintStart_toEndOf="@+id/thirteen"
+        tools:ignore="MissingConstraints"
+
+         />
+    <ImageView
+        android:id="@+id/thirteenS14"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumbertl"
+        tools:ignore="MissingConstraints"
+
+        app:layout_constraintStart_toEndOf="@+id/tenQ"
+        app:layout_constraintBottom_toTopOf="@+id/thirteen"
+         />
+    <ImageView
+        android:id="@+id/thirteen"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberbl"
+        app:layout_constraintStart_toEndOf="@+id/tenS13"
+        app:layout_constraintBottom_toBottomOf="@+id/ten"
+        tools:ignore="MissingConstraints"
+
+
+         />
+    <ImageView
+        android:id="@+id/sixteen"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintStart_toEndOf="@+id/thirteenS16"
+        app:layout_constraintBottom_toBottomOf="@+id/thirteenS16"
+        android:background="@drawable/blacknumberbl"
+         tools:ignore="MissingConstraints"
+         />
+    <ImageView
+        android:id="@+id/sixteenS17"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumbertl"
+        app:layout_constraintBottom_toTopOf="@+id/sixteen"
+        app:layout_constraintStart_toEndOf="@+id/thirteenQ"
+         tools:ignore="MissingConstraints"
+
+        />
+    <ImageView
+        android:id="@+id/sixteenS19"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberr"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/sixteen"
+        app:layout_constraintBottom_toBottomOf="@+id/sixteen"
+         />
+    <ImageView
+        android:id="@+id/seventeen"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberbl"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toTopOf="@+id/sixteenS17"
+        app:layout_constraintStart_toEndOf="@+id/fourteenS17"
+         />
+    <ImageView
+        android:id="@+id/seventeenS18"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumbertl"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toTopOf="@+id/seventeen"
+        app:layout_constraintStart_toEndOf="@+id/fourteenQ"
+         />
+    <ImageView
+        android:id="@+id/seventeenQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toTopOf="@+id/seventeen"
+        app:layout_constraintStart_toEndOf="@+id/seventeen"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+         />
+    <ImageView
+        android:id="@+id/eighteen"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:background="@drawable/blackpiece"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toTopOf="@+id/seventeenS18"
+        app:layout_constraintStart_toEndOf="@+id/fifteenS18"
+         />
+    <ImageView
+        android:id="@+id/eighteenS21"
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:background="@drawable/blackpiece2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/eighteen"
+        app:layout_constraintBottom_toTopOf="@+id/seventeenQ"
+         />
+    <ImageView
+        android:id="@+id/sixteenQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/sixteen"
+        app:layout_constraintBottom_toTopOf="@+id/sixteen"
+         />
+    <ImageView
+        android:id="@+id/seventeenS20"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberr"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintBottom_toTopOf="@+id/sixteenQ"
+        app:layout_constraintStart_toEndOf="@+id/seventeen"
+
+        />
+
+    <ImageView
+        android:id="@+id/nineteen"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberbl"
+        app:layout_constraintBottom_toBottomOf="@+id/sixteenS19"
+        app:layout_constraintStart_toEndOf="@+id/sixteenS19"
+        app:layout_constraintTop_toBottomOf="@id/nineteenS20"
+        tools:ignore="MissingConstraints"
+         />
+
+    <ImageView
+        android:id="@+id/nineteenS20"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumbertl"
+        app:layout_constraintTop_toBottomOf="@id/twenty"
+        app:layout_constraintStart_toEndOf="@+id/sixteenQ"
+
+        tools:ignore="MissingConstraints"/>
+     <ImageView
+        android:id="@+id/nineteenS22"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberr"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/nineteen"
+        app:layout_constraintBottom_toBottomOf="@+id/nineteen"
+         />
+    <ImageView
+        android:id="@+id/twenty"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberbl"
+        app:layout_constraintStart_toEndOf="@+id/seventeenS20"
+        app:layout_constraintBottom_toBottomOf="@+id/seventeenS20"
+        tools:ignore="MissingConstraints"/>
+
+
+     <ImageView
+        android:id="@+id/twentone"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:background="@drawable/redpiece"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/eighteenS21"
+        app:layout_constraintBottom_toTopOf="@+id/twentyS21"
+         />
+    <ImageView
+        android:id="@+id/twentyS21"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumbertl"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toTopOf="@+id/twenty"
+        app:layout_constraintStart_toEndOf="@+id/seventeenQ"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+         />
+    <ImageView
+        android:id="@+id/fourQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/four"
+        app:layout_constraintBottom_toTopOf="@+id/four"
+         />
+    <ImageView
+        android:id="@+id/twentytwoS25"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberr"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/twentytwo"
+        app:layout_constraintTop_toBottomOf="@+id/twentytwoQ"
+         />
+    <ImageView
+        android:id="@+id/fiveQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/five"
+        app:layout_constraintBottom_toTopOf="@+id/five"
+         />
+    <ImageView
+        android:id="@+id/sixS9"
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:background="@drawable/blackpiece2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/six"
+        app:layout_constraintBottom_toTopOf="@+id/fiveQ"
+         />
+    <ImageView
+        android:id="@+id/twentytwo"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberbl"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/nineteenS22"
+        app:layout_constraintBottom_toBottomOf="@+id/nineteenS22"
+         />
+    <ImageView
+        android:id="@+id/twentytwoS23"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumbertl"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toTopOf="@+id/twentytwo"
+        app:layout_constraintStart_toEndOf="@+id/nineteenQ"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+         />
+    <ImageView
+        android:id="@+id/twentytwoQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/twentytwo"
+        app:layout_constraintBottom_toTopOf="@+id/twentytwo"
+         />
+    <ImageView
+        android:id="@+id/twentyfourS27"
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:background="@drawable/blackpiece2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/twentyfour"
+        app:layout_constraintBottom_toTopOf="@+id/twentythreeQ"
+         />
+    <ImageView
+        android:id="@+id/twentythreeQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/twentythree"
+        app:layout_constraintBottom_toTopOf="@+id/twentythree"
+
+         />
+    <ImageView
+        android:id="@+id/twentythree"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberbl"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/nineteenQ"
+        app:layout_constraintBottom_toTopOf="@+id/twentytwoS23"
+         />
+    <ImageView
+        android:id="@+id/twentyfive"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberbl"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/twentytwoS25"
+        app:layout_constraintBottom_toBottomOf="@+id/twentytwoS25"
+         />
+    <ImageView
+        android:id="@+id/twentyfiveS26"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumbertl"
+        app:layout_constraintBottom_toTopOf="@+id/twentyfive"
+        app:layout_constraintStart_toEndOf="@+id/twentytwoQ"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="149dp"/>
+
+    <ImageView
+        android:id="@+id/eightS11"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberr"
+        app:layout_constraintBottom_toBottomOf="@+id/eight"
+        app:layout_constraintStart_toEndOf="@+id/eight"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/twentysix"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberbl"
+        app:layout_constraintStart_toEndOf="@+id/twentythreeS26"
+        app:layout_constraintBottom_toBottomOf="@+id/twentythreeS26"
+        tools:ignore="MissingConstraints"/>
+
+
+     <ImageView
+        android:id="@+id/twentyfour"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+         android:background="@drawable/blackpiece"
+        app:layout_constraintBottom_toTopOf="@id/twentythreeS24"
+        app:layout_constraintStart_toEndOf="@id/twentyoneS24"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/twentythreeS24"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumbertl"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toTopOf="@+id/twentythree"
+        app:layout_constraintStart_toEndOf="@+id/twentyQ"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+         />
+    <ImageView
+        android:id="@+id/twentysixQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/twentysix"
+        app:layout_constraintBottom_toTopOf="@+id/twentysix"
+         />
+    <ImageView
+        android:id="@+id/twentythreeS26"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberr"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/twentythree"
+        app:layout_constraintBottom_toTopOf="@+id/twentytwoQ"
+         />
+    <ImageView
+        android:id="@+id/twentyfiveQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/twentyfive"
+        app:layout_constraintBottom_toTopOf="@+id/twentyfive"
+         />
+    <ImageView
+        android:id="@+id/twentyseven"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:background="@drawable/redpiece"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/twentyfourS27"
+        app:layout_constraintBottom_toTopOf="@+id/twentythreeQ"
+         />
+    <ImageView
+        android:id="@+id/twentysevenS30"
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:background="@drawable/redpiece2"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/twentyseven"
+        app:layout_constraintBottom_toTopOf="@+id/twentysixQ"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+         />
+    <ImageView
+        android:id="@+id/twentysixS27"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumbertl"
+        app:layout_constraintBottom_toTopOf="@+id/twentysix"
+        app:layout_constraintStart_toEndOf="@+id/twentythreeQ"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="149dp"/>
+     <ImageView
+        android:id="@+id/twentysixS29"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberr"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/twentysix"
+        app:layout_constraintBottom_toBottomOf="@+id/twentysix"
+         />
+    <ImageView
+        android:id="@+id/twentyfiveS28"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberr"
+        app:layout_constraintStart_toEndOf="@+id/twentyfive"
+        app:layout_constraintBottom_toBottomOf="@+id/twentyfive"
+        tools:ignore="MissingConstraints"/>
+
+
+     <ImageView
+        android:id="@+id/thirty"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+         android:background="@drawable/blackpiece"
+        app:layout_constraintBottom_toTopOf="@id/twentynineS30"
+        app:layout_constraintStart_toEndOf="@id/twentysevenS30"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/twentynineS30"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumbertl"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toTopOf="@+id/twentynine"
+        app:layout_constraintStart_toEndOf="@+id/twentysixQ"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+         />
+    <ImageView
+        android:id="@+id/twentynineQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/twentynine"
+        app:layout_constraintBottom_toTopOf="@+id/twentynine"
+         />
+    <ImageView
+        android:id="@+id/twentynineS32"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberr"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/twentynine"
+        app:layout_constraintBottom_toTopOf="@+id/twentyeightQ"
+         />
+    <ImageView
+        android:id="@+id/twentyeightQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/twentyeight"
+        app:layout_constraintBottom_toTopOf="@+id/twentyeight"
+         />
+    <ImageView
+        android:id="@+id/twentynine"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberbl"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/twentysixS29"
+        app:layout_constraintBottom_toTopOf="@+id/twentyfiveQ"
+         />
+    <ImageView
+        android:id="@+id/thirtyS33"
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:background="@drawable/blackpiece2"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/thirty"
+        app:layout_constraintBottom_toTopOf="@+id/twentynineQ"
+         />
+    <ImageView
+        android:id="@+id/twentyeightS31"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberr"
+        app:layout_constraintBottom_toBottomOf="@+id/twentyeight"
+        app:layout_constraintStart_toEndOf="@+id/twentyeight"
+        tools:ignore="MissingConstraints"
+
+         />
+    <ImageView
+        android:id="@+id/twentyeightS29"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumbertl"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/twentyfiveQ"
+        app:layout_constraintBottom_toBottomOf="@+id/twentyfiveQ"
+         />
+    <ImageView
+        android:id="@+id/twentyeight"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberbl"
+        app:layout_constraintStart_toEndOf="@+id/twentyfiveS28"
+        app:layout_constraintBottom_toBottomOf="@+id/twentyfiveS28"
+        tools:ignore="MissingConstraints"/>
+
+
+     <ImageView
+        android:id="@+id/thirtythree"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+         android:background="@drawable/redpiece"
+        app:layout_constraintBottom_toTopOf="@id/thirtytwoS33"
+        app:layout_constraintStart_toEndOf="@id/thirtyS33"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/thirtytwoS33"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumbertl"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toTopOf="@+id/thirtytwo"
+        app:layout_constraintStart_toEndOf="@+id/twentynineQ"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+         />
+    <ImageView
+        android:id="@+id/thirtytwoQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blacknumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/thirtytwo"
+        app:layout_constraintBottom_toTopOf="@+id/thirtytwo"
+         />
+    <ImageView
+        android:id="@+id/thirtytwoS35"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberr"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/thirtytwo"
+        app:layout_constraintBottom_toTopOf="@+id/thirtyoneQ"
+         />
+    <ImageView
+        android:id="@+id/thirtyoneQ"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumberq"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/thirtyone"
+        app:layout_constraintBottom_toTopOf="@+id/thirtyone"
+         />
+    <ImageView
+        android:id="@+id/thirtytwo"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blacknumberbl"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp"
+        app:layout_constraintStart_toEndOf="@+id/twentynineS32"
+        app:layout_constraintBottom_toTopOf="@+id/thirtyoneQ"
+         />
+    <ImageView
+        android:id="@+id/thirtythreeS36"
+        android:layout_width="10dp"
+        android:layout_height="30dp"
+        android:background="@drawable/redpiece2"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/thirtythree"
+        app:layout_constraintBottom_toTopOf="@+id/twentynineQ"
+         />
+    <ImageView
+        android:id="@+id/thirtyoneS34"
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberr"
+        app:layout_constraintBottom_toBottomOf="@+id/thirtyone"
+        app:layout_constraintStart_toEndOf="@+id/thirtyone"
+        tools:ignore="MissingConstraints"
+
+         />
+    <ImageView
+        android:id="@+id/thirtyoneS32"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:background="@drawable/rednumbertl"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintStart_toEndOf="@+id/twentyeightQ"
+        app:layout_constraintBottom_toBottomOf="@+id/twentyeightQ"
+         />
+    <ImageView
+        android:id="@+id/thirtyone"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/rednumberbl"
+        app:layout_constraintStart_toEndOf="@+id/twentyeightS31"
+        app:layout_constraintBottom_toBottomOf="@+id/twentyeightS31"
+        tools:ignore="MissingConstraints"/>
+
+
+     <ImageView
+        android:id="@+id/thirtysix"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+         android:background="@drawable/blackround"
+        app:layout_constraintBottom_toTopOf="@id/thirtyfiveS36"
+        app:layout_constraintStart_toEndOf="@id/thirtythreeS36"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/third"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        app:layout_constraintBottom_toTopOf="@id/second"
+        app:layout_constraintStart_toEndOf="@id/thirtyfiveS36"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:text="2-1"
+        android:gravity="center"
+        android:textColor="@color/purple_500"
+        android:rotation="-90"
+        app:layout_constraintBottom_toTopOf="@id/second"
+        app:layout_constraintStart_toEndOf="@id/thirtyfiveS36"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/second"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        app:layout_constraintBottom_toTopOf="@id/first"
+        app:layout_constraintStart_toEndOf="@+id/thirtyfourS35"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:text="2-1"
+        android:gravity="center"
+        android:textColor="@color/purple_500"
+        android:rotation="-90"
+        app:layout_constraintBottom_toTopOf="@id/first"
+        app:layout_constraintStart_toEndOf="@+id/thirtyfourS35"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/first"
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="@id/thirtyfour"
+        app:layout_constraintStart_toEndOf="@id/thirtyfour"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:text="2-1"
+        android:gravity="center"
+        android:textColor="@color/purple_500"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/thirtyfour"
+        app:layout_constraintStart_toEndOf="@id/thirtyfour"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/first12"
+        android:layout_width="120dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="7dp"
+        android:background="@null"
+        app:layout_constraintTop_toBottomOf="@id/one"
+        app:layout_constraintStart_toStartOf="@id/one"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="33dp"
+        android:text="1st 12"
+        android:gravity="center"
+        android:textColor="@color/purple_500"
+        app:layout_constraintTop_toBottomOf="@id/one"
+        app:layout_constraintStart_toStartOf="@id/one"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/second12"
+        android:layout_width="120dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="7dp"
+        android:background="@null"
+        app:layout_constraintTop_toBottomOf="@id/one"
+        app:layout_constraintStart_toEndOf="@id/first12"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="33dp"
+        android:text="2nd 12"
+        android:gravity="center"
+        android:textColor="@color/purple_500"
+        app:layout_constraintTop_toBottomOf="@id/one"
+        app:layout_constraintStart_toEndOf="@id/first12"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/third12"
+        android:layout_width="120dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="7dp"
+        android:background="@null"
+        app:layout_constraintTop_toBottomOf="@id/one"
+        app:layout_constraintStart_toEndOf="@id/second12"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="33dp"
+        android:text="3rd 12"
+        android:gravity="center"
+        android:textColor="@color/purple_500"
+        app:layout_constraintTop_toBottomOf="@id/one"
+        app:layout_constraintStart_toEndOf="@id/second12"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/one18"
+        android:layout_width="60dp"
+        android:layout_height="33dp"
+        android:background="@null"
+        app:layout_constraintTop_toBottomOf="@id/first12"
+        app:layout_constraintStart_toStartOf="@id/one"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="33dp"
+        android:text="1-18"
+        android:gravity="center"
+        android:textColor="@color/purple_500"
+        app:layout_constraintTop_toBottomOf="@id/first12"
+        app:layout_constraintStart_toStartOf="@id/one"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/even"
+        android:layout_width="60dp"
+        android:layout_height="33dp"
+        android:background="@null"
+        app:layout_constraintTop_toBottomOf="@id/first12"
+        app:layout_constraintStart_toEndOf="@id/one18"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="33dp"
+        android:text="Even"
+        android:gravity="center"
+        android:textColor="@color/purple_500"
+        app:layout_constraintTop_toBottomOf="@id/first12"
+        app:layout_constraintStart_toEndOf="@id/one18"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/red"
+        android:layout_width="60dp"
+        android:layout_height="33dp"
+        android:background="@drawable/redround"
+        app:layout_constraintTop_toBottomOf="@id/first12"
+        app:layout_constraintStart_toEndOf="@id/even"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="33dp"
+        android:text="Red"
+        android:gravity="center"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/first12"
+        app:layout_constraintStart_toEndOf="@id/even"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <ImageView
+        android:id="@+id/black"
+        android:layout_width="60dp"
+        android:layout_height="33dp"
+        app:layout_constraintTop_toBottomOf="@id/first12"
+        app:layout_constraintStart_toEndOf="@id/red"
+        android:background="@drawable/blackround"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="33dp"
+        android:text="Black"
+        android:gravity="center"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/first12"
+        app:layout_constraintStart_toEndOf="@id/red"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+
+    <ImageView
+    android:id="@+id/odd"
+    android:layout_width="60dp"
+    android:layout_height="33dp"
+    android:background="@null"
+    app:layout_constraintTop_toBottomOf="@id/first12"
+    app:layout_constraintStart_toEndOf="@id/black"
+    tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="33dp"
+        android:text="Odd"
+        android:gravity="center"
+        android:textColor="@color/purple_500"
+        app:layout_constraintTop_toBottomOf="@id/first12"
+        app:layout_constraintStart_toEndOf="@id/black"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/nineteen36"
+        android:layout_width="60dp"
+        android:layout_height="33dp"
+        android:background="@null"
+        app:layout_constraintTop_toBottomOf="@id/first12"
+        app:layout_constraintStart_toEndOf="@id/odd"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="33dp"
+        android:text="19-26"
+        android:gravity="center"
+        android:textColor="@color/purple_500"
+        app:layout_constraintTop_toBottomOf="@id/first12"
+        app:layout_constraintStart_toEndOf="@id/odd"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/zero"
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:background="@drawable/greenround"
+        app:layout_constraintBottom_toBottomOf="@+id/one"
+        app:layout_constraintEnd_toStartOf="@+id/one"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:text="0"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@+id/one"
+        app:layout_constraintEnd_toStartOf="@+id/one"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/doublezero"
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:background="@drawable/greenround"
+        app:layout_constraintBottom_toTopOf="@+id/zero"
+        app:layout_constraintEnd_toStartOf="@+id/one"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:rotation="-90"
+        android:text="00"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/zero"
+        app:layout_constraintEnd_toStartOf="@+id/one"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/thirtyfiveS36"
+        android:layout_width="30dp"
+        android:layout_height="10dp"
+        android:background="@drawable/redspecial2"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintBottom_toTopOf="@+id/thirtyfive"
+        app:layout_constraintStart_toEndOf="@+id/thirtytwoQ"
+         />
+    <ImageView
+        android:id="@+id/thirtyfive"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:background="@drawable/redspecial"
+        tools:ignore="MissingConstraints"
+
+        app:layout_constraintStart_toEndOf="@+id/thirtytwoS35"
+        app:layout_constraintBottom_toTopOf="@+id/thirtyoneQ"
+         />
+    <ImageView
+        android:id="@+id/thirtyfourS35"
+        android:layout_width="30dp"
+        android:layout_height="10dp"
+        android:background="@drawable/blackspecial2"
+        tools:ignore="MissingConstraints"
+
+        app:layout_constraintStart_toEndOf="@+id/thirtyoneQ"
+        app:layout_constraintBottom_toBottomOf="@+id/thirtyoneQ"
+         />
+    <ImageView
+        android:id="@+id/thirtyfour"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:background="@drawable/blackspecial"
+        app:layout_constraintStart_toEndOf="@+id/thirtyoneS34"
+        app:layout_constraintBottom_toBottomOf="@+id/thirtyoneS34"
+        tools:ignore="MissingConstraints"/>
+
+
+    <ImageView
         android:id="@+id/redchip"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:background="@drawable/redchip"
-        tools:ignore="MissingConstraints"
-        app:layout_constraintTop_toBottomOf="@+id/board"
-        />
 
-    <ImageButton
-            android:id="@+id/greenchip"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@drawable/greenchip"
-            android:layout_toEndOf="@id/redchip"
-            android:layout_toRightOf="@id/redchip"
-            app:layout_constraintStart_toEndOf="@+id/redchip"
-            app:layout_constraintBottom_toBottomOf="@+id/redchip"
-            tools:ignore="MissingConstraints"
-            android:layout_marginLeft="10dp" />
-        <ImageButton
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/redchip"
+        app:layout_constraintEnd_toStartOf="@+id/greenchip"
+        app:layout_constraintStart_toStartOf="@+id/one"
+        app:layout_constraintTop_toBottomOf="@id/one18"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/greenchip"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_toEndOf="@id/redchip"
+        android:layout_toRightOf="@id/redchip"
+        android:background="@drawable/greenchip"
+        app:layout_constraintBottom_toBottomOf="@+id/redchip"
+        app:layout_constraintStart_toEndOf="@+id/redchip"
+        tools:ignore="MissingConstraints" />
+     <ImageView
             android:id="@+id/bluechip"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="@drawable/bluechip"
             app:layout_constraintStart_toEndOf="@+id/greenchip"
             app:layout_constraintBottom_toBottomOf="@+id/greenchip"
-            android:layout_marginLeft="10dp"
-            tools:ignore="MissingConstraints"
+             tools:ignore="MissingConstraints"
             />
-        <ImageButton
+    <ImageView
             android:id="@+id/graychip"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="@drawable/graychip"
             app:layout_constraintStart_toEndOf="@+id/bluechip"
             app:layout_constraintBottom_toBottomOf="@+id/bluechip"
-            android:layout_marginLeft="10dp"
-            tools:ignore="MissingConstraints"
+             tools:ignore="MissingConstraints"
             />
-        <ImageButton
+    <ImageView
             android:id="@+id/orangechip"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="@drawable/orangechip"
             app:layout_constraintStart_toEndOf="@+id/graychip"
             app:layout_constraintBottom_toBottomOf="@+id/graychip"
-            android:layout_marginLeft="10dp"
-            tools:ignore="MissingConstraints"
+             tools:ignore="MissingConstraints"
             />
-        <ImageButton
+    <ImageView
             android:id="@+id/blackchip"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="@drawable/blackchip"
             app:layout_constraintStart_toEndOf="@+id/orangechip"
             app:layout_constraintBottom_toBottomOf="@+id/orangechip"
-            android:layout_marginLeft="10dp"
-            tools:ignore="MissingConstraints"
+             tools:ignore="MissingConstraints"
             />
 
+<!--    <ImageView-->
+<!--        android:id="@+id/board"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:src="@drawable/board"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="87dp"-->
+<!--        tools:layout_editor_absoluteY="172dp" />-->
 
-
-         <Button
+    <Button
              android:id="@+id/button_first"
              android:layout_width="wrap_content"
              android:layout_height="wrap_content"
-             android:text="@string/next"
+             android:text="Spin"
              tools:ignore="MissingConstraints"
              app:layout_constraintStart_toEndOf="@+id/blackchip"
-             app:layout_constraintBottom_toBottomOf="@+id/blackchip"
-             android:layout_marginLeft="50dp"/>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+             app:layout_constraintBottom_toBottomOf="@+id/blackchip"/>
+ </androidx.constraintlayout.widget.ConstraintLayout>
