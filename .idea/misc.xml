@@ -14,6 +14,7 @@
         <entry key="app/src/main/res/drawable/blackround.xml" value="0.179" />
         <entry key="app/src/main/res/drawable/blackspecial.xml" value="0.237" />
         <entry key="app/src/main/res/drawable/blackspecial2.xml" value="0.237" />
+        <entry key="app/src/main/res/drawable/grayround.xml" value="0.217" />
         <entry key="app/src/main/res/drawable/greenround.xml" value="0.179" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2565" />
         <entry key="app/src/main/res/drawable/rednumber.xml" value="0.179" />
@@ -27,7 +28,7 @@
         <entry key="app/src/main/res/drawable/redspecial2.xml" value="0.237" />
         <entry key="app/src/main/res/drawable/roundedcorner.xml" value="0.2405" />
         <entry key="app/src/main/res/drawable/splitnumber.xml" value="0.1605" />
-        <entry key="app/src/main/res/layout-land/fragment_first.xml" value="0.2786151123046875" />
+        <entry key="app/src/main/res/layout-land/fragment_first.xml" value="0.5190124511718752" />
         <entry key="app/src/main/res/layout-sw600dp/fragment_first.xml" value="0.28203125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.37604166666666666" />

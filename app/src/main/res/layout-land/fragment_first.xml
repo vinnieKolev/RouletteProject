@@ -16,6 +16,16 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="174dp"
         tools:layout_editor_absoluteY="141dp" />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="1"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/one"
+        app:layout_constraintStart_toStartOf="@id/one"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/oneS2"
@@ -49,6 +59,16 @@
         app:layout_constraintEnd_toEndOf="@+id/oneS2"
         app:layout_constraintStart_toStartOf="@+id/oneS2"
         tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="2"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/two"
+        app:layout_constraintStart_toStartOf="@id/two"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/twoS3"
@@ -75,6 +95,16 @@
         android:layout_height="30dp"
         app:layout_constraintBottom_toTopOf="@+id/twoS3"
         app:layout_constraintEnd_toStartOf="@+id/threeS6"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="3"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/three"
+        app:layout_constraintStart_toStartOf="@id/three"
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/threeS6"
@@ -113,6 +143,17 @@
         app:layout_constraintStart_toEndOf="@+id/oneS4"
         app:layout_constraintBottom_toBottomOf="@+id/oneS4"
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="4"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/four"
+        app:layout_constraintStart_toStartOf="@id/four"
+        tools:ignore="MissingConstraints" />
+
     <ImageView
         android:id="@+id/fourS5"
         android:layout_width="20dp"
@@ -140,6 +181,16 @@
         app:layout_constraintBottom_toBottomOf="@+id/twoS5"
         tools:ignore="MissingConstraints"/>
 
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="5"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/five"
+        app:layout_constraintStart_toStartOf="@id/five"
+        tools:ignore="MissingConstraints" />
 
      <ImageView
         android:id="@+id/six"
@@ -150,6 +201,16 @@
         app:layout_constraintStart_toEndOf="@+id/threeS6"
         app:layout_constraintBottom_toTopOf="@+id/fiveS6"
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="6"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/six"
+        app:layout_constraintStart_toStartOf="@id/six"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/fiveS6"
         android:layout_width="20dp"
@@ -207,6 +268,16 @@
         app:layout_constraintStart_toEndOf="@+id/fourS7"
         app:layout_constraintTop_toBottomOf="@+id/fourQ"
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="7"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/seven"
+        app:layout_constraintStart_toStartOf="@id/seven"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/sevenS8"
         android:layout_width="20dp"
@@ -255,6 +326,16 @@
         app:layout_constraintStart_toEndOf="@+id/fiveS8"
         app:layout_constraintBottom_toTopOf="@+id/fourQ"
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="8"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/eight"
+        app:layout_constraintStart_toStartOf="@id/eight"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/ten"
         android:layout_width="20dp"
@@ -263,8 +344,17 @@
         tools:ignore="MissingConstraints"
         app:layout_constraintStart_toEndOf="@+id/sevenS10"
         app:layout_constraintBottom_toBottomOf="@+id/sevenS10"
-
         />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="10"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/ten"
+        app:layout_constraintStart_toStartOf="@id/ten"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/tenS11"
         android:layout_width="20dp"
@@ -294,6 +384,16 @@
         app:layout_constraintBottom_toBottomOf="@+id/eightS11"
         tools:ignore="MissingConstraints"/>
 
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="11"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/eleven"
+        app:layout_constraintStart_toStartOf="@id/eleven"
+        tools:ignore="MissingConstraints" />
 
      <ImageView
         android:id="@+id/nine"
@@ -302,6 +402,16 @@
          android:background="@drawable/redpiece"
         app:layout_constraintBottom_toTopOf="@id/eightS9"
         app:layout_constraintStart_toEndOf="@id/sixS9"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="9"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/nine"
+        app:layout_constraintStart_toStartOf="@id/nine"
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/eightS9"
@@ -354,6 +464,16 @@
         app:layout_constraintStart_toEndOf="@+id/nineS12"
         app:layout_constraintBottom_toTopOf="@+id/eightQ"
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="12"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/twelve"
+        app:layout_constraintStart_toStartOf="@id/twelve"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twelveS15"
         android:layout_width="10dp"
@@ -402,6 +522,16 @@
          android:background="@drawable/redpiece"
         app:layout_constraintBottom_toTopOf="@id/fourteenS15"
         app:layout_constraintStart_toEndOf="@id/twelveS15"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="15"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/fifteen"
+        app:layout_constraintStart_toStartOf="@id/fifteen"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -454,6 +584,16 @@
         app:layout_constraintStart_toEndOf="@+id/elevenS14"
         app:layout_constraintBottom_toTopOf="@+id/tenQ"
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="14"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/fourteen"
+        app:layout_constraintStart_toStartOf="@id/fourteen"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/fifteenS18"
         android:layout_width="10dp"
@@ -491,9 +631,17 @@
         app:layout_constraintStart_toEndOf="@+id/tenS13"
         app:layout_constraintBottom_toBottomOf="@+id/ten"
         tools:ignore="MissingConstraints"
-
-
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="13"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/thirteen"
+        app:layout_constraintStart_toStartOf="@id/thirteen"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/sixteen"
         android:layout_width="20dp"
@@ -503,6 +651,16 @@
         android:background="@drawable/blacknumberbl"
          tools:ignore="MissingConstraints"
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="16"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/sixteen"
+        app:layout_constraintStart_toStartOf="@id/sixteen"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/sixteenS17"
         android:layout_width="20dp"
@@ -533,6 +691,16 @@
         app:layout_constraintBottom_toTopOf="@+id/sixteenS17"
         app:layout_constraintStart_toEndOf="@+id/fourteenS17"
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="17"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/seventeen"
+        app:layout_constraintStart_toStartOf="@id/seventeen"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/seventeenS18"
         android:layout_width="20dp"
@@ -562,6 +730,16 @@
         app:layout_constraintBottom_toTopOf="@+id/seventeenS18"
         app:layout_constraintStart_toEndOf="@+id/fifteenS18"
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="18"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/eighteen"
+        app:layout_constraintStart_toStartOf="@id/eighteen"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/eighteenS21"
         android:layout_width="10dp"
@@ -605,6 +783,16 @@
         app:layout_constraintTop_toBottomOf="@id/nineteenS20"
         tools:ignore="MissingConstraints"
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="19"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/nineteen"
+        app:layout_constraintStart_toStartOf="@id/nineteen"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/nineteenS20"
@@ -635,6 +823,16 @@
         app:layout_constraintBottom_toBottomOf="@+id/seventeenS20"
         tools:ignore="MissingConstraints"/>
 
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="20"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/twenty"
+        app:layout_constraintStart_toStartOf="@id/twenty"
+        tools:ignore="MissingConstraints" />
 
      <ImageView
         android:id="@+id/twentone"
@@ -645,6 +843,16 @@
         app:layout_constraintStart_toEndOf="@+id/eighteenS21"
         app:layout_constraintBottom_toTopOf="@+id/twentyS21"
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="21"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/twentone"
+        app:layout_constraintStart_toStartOf="@id/twentone"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentyS21"
         android:layout_width="20dp"
@@ -705,6 +913,16 @@
         app:layout_constraintStart_toEndOf="@+id/nineteenS22"
         app:layout_constraintBottom_toBottomOf="@+id/nineteenS22"
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="22"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/twentytwo"
+        app:layout_constraintStart_toStartOf="@id/twentytwo"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentytwoS23"
         android:layout_width="20dp"
@@ -757,6 +975,16 @@
         app:layout_constraintStart_toEndOf="@+id/nineteenQ"
         app:layout_constraintBottom_toTopOf="@+id/twentytwoS23"
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="23"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/twentythree"
+        app:layout_constraintStart_toStartOf="@id/twentythree"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentyfive"
         android:layout_width="20dp"
@@ -766,6 +994,16 @@
         app:layout_constraintStart_toEndOf="@+id/twentytwoS25"
         app:layout_constraintBottom_toBottomOf="@+id/twentytwoS25"
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="25"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/twentyfive"
+        app:layout_constraintStart_toStartOf="@id/twentyfive"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentyfiveS26"
         android:layout_width="20dp"
@@ -793,6 +1031,16 @@
         app:layout_constraintBottom_toBottomOf="@+id/twentythreeS26"
         tools:ignore="MissingConstraints"/>
 
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="26"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/twentysix"
+        app:layout_constraintStart_toStartOf="@id/twentysix"
+        tools:ignore="MissingConstraints" />
 
      <ImageView
         android:id="@+id/twentyfour"
@@ -801,6 +1049,16 @@
          android:background="@drawable/blackpiece"
         app:layout_constraintBottom_toTopOf="@id/twentythreeS24"
         app:layout_constraintStart_toEndOf="@id/twentyoneS24"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="24"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/twentyfour"
+        app:layout_constraintStart_toStartOf="@id/twentyfour"
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentythreeS24"
@@ -853,6 +1111,16 @@
         app:layout_constraintStart_toEndOf="@+id/twentyfourS27"
         app:layout_constraintBottom_toTopOf="@+id/twentythreeQ"
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="27"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/twentyseven"
+        app:layout_constraintStart_toStartOf="@id/twentyseven"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentysevenS30"
         android:layout_width="10dp"
@@ -901,6 +1169,16 @@
          android:background="@drawable/blackpiece"
         app:layout_constraintBottom_toTopOf="@id/twentynineS30"
         app:layout_constraintStart_toEndOf="@id/twentysevenS30"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="30"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/thirty"
+        app:layout_constraintStart_toStartOf="@id/thirty"
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentynineS30"
@@ -953,6 +1231,17 @@
         app:layout_constraintStart_toEndOf="@+id/twentysixS29"
         app:layout_constraintBottom_toTopOf="@+id/twentyfiveQ"
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="29"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/twentynine"
+        app:layout_constraintStart_toStartOf="@id/twentynine"
+        tools:ignore="MissingConstraints" />
+
     <ImageView
         android:id="@+id/thirtyS33"
         android:layout_width="10dp"
@@ -992,6 +1281,16 @@
         app:layout_constraintBottom_toBottomOf="@+id/twentyfiveS28"
         tools:ignore="MissingConstraints"/>
 
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="28"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/twentyeight"
+        app:layout_constraintStart_toStartOf="@id/twentyeight"
+        tools:ignore="MissingConstraints" />
 
      <ImageView
         android:id="@+id/thirtythree"
@@ -1000,6 +1299,16 @@
          android:background="@drawable/redpiece"
         app:layout_constraintBottom_toTopOf="@id/thirtytwoS33"
         app:layout_constraintStart_toEndOf="@id/thirtyS33"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="33"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/thirtythree"
+        app:layout_constraintStart_toStartOf="@id/thirtythree"
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/thirtytwoS33"
@@ -1052,6 +1361,17 @@
         app:layout_constraintStart_toEndOf="@+id/twentynineS32"
         app:layout_constraintBottom_toTopOf="@+id/thirtyoneQ"
          />
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="32"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/thirtytwo"
+        app:layout_constraintStart_toStartOf="@id/thirtytwo"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/thirtythreeS36"
         android:layout_width="10dp"
@@ -1089,6 +1409,16 @@
         app:layout_constraintBottom_toBottomOf="@+id/twentyeightS31"
         tools:ignore="MissingConstraints"/>
 
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="31"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/thirtyone"
+        app:layout_constraintStart_toStartOf="@id/thirtyone"
+        tools:ignore="MissingConstraints" />
 
      <ImageView
         android:id="@+id/thirtysix"
@@ -1097,6 +1427,16 @@
          android:background="@drawable/blackround"
         app:layout_constraintBottom_toTopOf="@id/thirtyfiveS36"
         app:layout_constraintStart_toEndOf="@id/thirtythreeS36"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="36"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/thirtysix"
+        app:layout_constraintStart_toStartOf="@id/thirtysix"
         tools:ignore="MissingConstraints" />
 
 
@@ -1110,7 +1450,7 @@
         android:id="@+id/third"
         android:layout_width="20dp"
         android:layout_height="30dp"
-        android:background="@null"
+        android:background="@drawable/grayround"
         app:layout_constraintBottom_toTopOf="@id/second"
         app:layout_constraintStart_toEndOf="@id/thirtyfiveS36"
         tools:ignore="MissingConstraints" />
@@ -1130,7 +1470,7 @@
         android:id="@+id/second"
         android:layout_width="20dp"
         android:layout_height="30dp"
-        android:background="@null"
+        android:background="@drawable/grayround"
         app:layout_constraintBottom_toTopOf="@id/first"
         app:layout_constraintStart_toEndOf="@+id/thirtyfourS35"
         tools:ignore="MissingConstraints" />
@@ -1149,7 +1489,7 @@
         android:id="@+id/first"
         android:layout_width="20dp"
         android:layout_height="30dp"
-        android:background="@null"
+        android:background="@drawable/grayround"
         app:layout_constraintBottom_toBottomOf="@id/thirtyfour"
         app:layout_constraintStart_toEndOf="@id/thirtyfour"
         tools:ignore="MissingConstraints" />
@@ -1169,7 +1509,7 @@
         android:layout_width="120dp"
         android:layout_height="33dp"
         android:layout_marginBottom="7dp"
-        android:background="@null"
+        android:background="@drawable/grayround"
         app:layout_constraintTop_toBottomOf="@id/one"
         app:layout_constraintStart_toStartOf="@id/one"
         tools:ignore="MissingConstraints" />
@@ -1189,7 +1529,7 @@
         android:layout_width="120dp"
         android:layout_height="33dp"
         android:layout_marginBottom="7dp"
-        android:background="@null"
+        android:background="@drawable/grayround"
         app:layout_constraintTop_toBottomOf="@id/one"
         app:layout_constraintStart_toEndOf="@id/first12"
         tools:ignore="MissingConstraints" />
@@ -1207,7 +1547,7 @@
         android:layout_width="120dp"
         android:layout_height="33dp"
         android:layout_marginBottom="7dp"
-        android:background="@null"
+        android:background="@drawable/grayround"
         app:layout_constraintTop_toBottomOf="@id/one"
         app:layout_constraintStart_toEndOf="@id/second12"
         tools:ignore="MissingConstraints" />
@@ -1225,7 +1565,7 @@
         android:id="@+id/one18"
         android:layout_width="60dp"
         android:layout_height="33dp"
-        android:background="@null"
+        android:background="@drawable/grayround"
         app:layout_constraintTop_toBottomOf="@id/first12"
         app:layout_constraintStart_toStartOf="@id/one"
         tools:ignore="MissingConstraints" />
@@ -1243,7 +1583,7 @@
         android:id="@+id/even"
         android:layout_width="60dp"
         android:layout_height="33dp"
-        android:background="@null"
+        android:background="@drawable/grayround"
         app:layout_constraintTop_toBottomOf="@id/first12"
         app:layout_constraintStart_toEndOf="@id/one18"
         tools:ignore="MissingConstraints" />
@@ -1304,7 +1644,7 @@
     android:id="@+id/odd"
     android:layout_width="60dp"
     android:layout_height="33dp"
-    android:background="@null"
+    android:background="@drawable/grayround"
     app:layout_constraintTop_toBottomOf="@id/first12"
     app:layout_constraintStart_toEndOf="@id/black"
     tools:ignore="MissingConstraints" />
@@ -1322,7 +1662,7 @@
         android:id="@+id/nineteen36"
         android:layout_width="60dp"
         android:layout_height="33dp"
-        android:background="@null"
+        android:background="@drawable/grayround"
         app:layout_constraintTop_toBottomOf="@id/first12"
         app:layout_constraintStart_toEndOf="@id/odd"
         tools:ignore="MissingConstraints" />
@@ -1400,6 +1740,16 @@
         app:layout_constraintStart_toEndOf="@+id/thirtytwoS35"
         app:layout_constraintBottom_toTopOf="@+id/thirtyoneQ"
          />
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="35"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/thirtyfive"
+        app:layout_constraintStart_toStartOf="@id/thirtyfive"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/thirtyfourS35"
         android:layout_width="30dp"
@@ -1418,6 +1768,16 @@
         app:layout_constraintStart_toEndOf="@+id/thirtyoneS34"
         app:layout_constraintBottom_toBottomOf="@+id/thirtyoneS34"
         tools:ignore="MissingConstraints"/>
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:text="34"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:rotation="-90"
+        app:layout_constraintBottom_toBottomOf="@id/thirtyfour"
+        app:layout_constraintStart_toStartOf="@id/thirtyfour"
+        tools:ignore="MissingConstraints" />
 
 
     <ImageView
