@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
     List<String> list = new ArrayList<String>();
+    int currentChip=0;
+
 
 
     @Override
@@ -87,10 +89,22 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view) {
 //       list.add(getResources().getResourceEntryName(view.getId()));
        list.add((String) view.getTag());
-       
+
     }
 
 
     public void pickChip(View view) {
+        if(getResources().getResourceEntryName(view.getId()).equals("redchip"))
+            currentChip=5;
+        if(getResources().getResourceEntryName(view.getId()).equals("bluechip"))
+            currentChip=10;
+        if(getResources().getResourceEntryName(view.getId()).equals("graychip"))
+            currentChip=20;
+        if(getResources().getResourceEntryName(view.getId()).equals("greenchip"))
+            currentChip=25;
+        if(getResources().getResourceEntryName(view.getId()).equals("orangechip"))
+            currentChip=50;
+        if(getResources().getResourceEntryName(view.getId()).equals("blackchip"))
+            currentChip=100;
     }
 }
