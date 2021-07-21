@@ -87,10 +87,10 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view) {
 //       list.add(getResources().getResourceEntryName(view.getId()));
        list.add((String) view.getTag());
-        Toast.makeText(this, "dfgfdg", Toast.LENGTH_SHORT).show();
+       
     }
 
 
-
-
+    public void pickChip(View view) {
+    }
 }

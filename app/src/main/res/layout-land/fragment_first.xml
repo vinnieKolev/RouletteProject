@@ -37,6 +37,9 @@
 
     <ImageView
         android:id="@+id/oneS2"
+        android:tag="1S2"
+        android:onClick="onClick"
+        android:clickable="true"
         android:layout_width="20dp"
         android:layout_height="10dp"
         android:background="@drawable/rednumbertl"
@@ -48,6 +51,9 @@
 
     <ImageView
         android:id="@+id/oneS4"
+        android:tag="1S4"
+        android:onClick="onClick"
+        android:clickable="true"
         android:layout_width="10dp"
         android:layout_height="20dp"
         android:background="@drawable/rednumberr"
@@ -72,6 +78,7 @@
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
+
         android:rotation="-90"
         android:text="2"
         android:textColor="@color/white"
@@ -83,6 +90,9 @@
 
     <ImageView
         android:id="@+id/twoS3"
+        android:tag="2S3"
+        android:onClick="onClick"
+        android:clickable="true"
         android:layout_width="20dp"
         android:layout_height="10dp"
         android:background="@drawable/blacknumbertl"
@@ -91,15 +101,19 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="2Q"
         android:id="@+id/twoQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/blacknumberq"
         app:layout_constraintBottom_toTopOf="@+id/two"
         app:layout_constraintStart_toEndOf="@+id/two"
         tools:ignore="MissingConstraints" />
 
     <ImageView
+
         android:id="@+id/three"
         android:layout_width="20dp"
         android:layout_height="30dp"
@@ -123,6 +137,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="3S6"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/threeS6"
         android:layout_width="10dp"
         android:layout_height="30dp"
@@ -133,18 +150,24 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="1Q"
         android:id="@+id/oneQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/rednumberq"
         app:layout_constraintBottom_toTopOf="@+id/one"
         app:layout_constraintStart_toEndOf="@+id/one"
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="2S5"
         android:id="@+id/twoS5"
         android:layout_width="10dp"
         android:layout_height="20dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/blacknumberr"
         app:layout_constraintBottom_toTopOf="@+id/oneQ"
         app:layout_constraintStart_toEndOf="@+id/two"
@@ -160,6 +183,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="4"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -173,9 +197,12 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="4S5"
         android:id="@+id/fourS5"
         android:layout_width="20dp"
         android:layout_height="10dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/blacknumbertl"
         app:layout_constraintBottom_toTopOf="@+id/four"
         app:layout_constraintStart_toEndOf="@+id/oneQ"
@@ -183,9 +210,12 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="4S7"
         android:id="@+id/fourS7"
         android:layout_width="10dp"
         android:layout_height="20dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/blacknumberr"
         app:layout_constraintBottom_toBottomOf="@+id/four"
         app:layout_constraintStart_toEndOf="@+id/four"
@@ -201,6 +231,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="5"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -223,6 +254,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="6"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -236,9 +268,12 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="5S6"
         android:id="@+id/fiveS6"
         android:layout_width="20dp"
         android:layout_height="10dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/rednumbertl"
         app:layout_constraintBottom_toTopOf="@+id/five"
         app:layout_constraintStart_toEndOf="@+id/twoQ"
@@ -247,36 +282,49 @@
         />
 
     <ImageView
+        android:tag="19Q"
         android:id="@+id/nineteenQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/rednumberq"
         app:layout_constraintBottom_toTopOf="@+id/nineteen"
         app:layout_constraintStart_toEndOf="@+id/nineteen"
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="7S10"
         android:id="@+id/sevenS10"
         android:layout_width="10dp"
         android:layout_height="20dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/rednumberr"
         app:layout_constraintStart_toEndOf="@+id/seven"
         app:layout_constraintTop_toBottomOf="@+id/sevenQ"
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="20Q"
+
         android:id="@+id/twentyQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/blacknumberq"
         app:layout_constraintBottom_toTopOf="@+id/twenty"
         app:layout_constraintStart_toEndOf="@+id/twenty"
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="21S24"
         android:id="@+id/twentyoneS24"
         android:layout_width="10dp"
         android:layout_height="30dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/redpiece2"
         app:layout_constraintBottom_toTopOf="@+id/twentyQ"
         app:layout_constraintStart_toEndOf="@+id/twentone"
@@ -285,6 +333,7 @@
         />
 
     <ImageView
+
         android:id="@+id/seven"
         android:layout_width="20dp"
         android:layout_height="20dp"
@@ -295,6 +344,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="7"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -308,9 +358,12 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="7S8"
         android:id="@+id/sevenS8"
         android:layout_width="20dp"
         android:layout_height="10dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/rednumbertl"
         app:layout_constraintBottom_toTopOf="@+id/seven"
         app:layout_constraintStart_toEndOf="@+id/fourQ"
@@ -319,18 +372,24 @@
         />
 
     <ImageView
+        android:tag="7Q"
         android:id="@+id/sevenQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/rednumberq"
         app:layout_constraintBottom_toTopOf="@+id/seven"
         app:layout_constraintStart_toEndOf="@+id/seven"
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="9S12"
         android:id="@+id/nineS12"
         android:layout_width="10dp"
         android:layout_height="30dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/redpiece2"
         app:layout_constraintBottom_toTopOf="@+id/eightQ"
         app:layout_constraintStart_toEndOf="@+id/nine"
@@ -339,6 +398,9 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
+        android:tag="8Q"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/eightQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
@@ -357,6 +419,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="8"
+
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -379,6 +443,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="10"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -392,6 +457,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="10S11"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/tenS11"
         android:layout_width="20dp"
         android:layout_height="10dp"
@@ -402,9 +470,12 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="20S23"
         android:id="@+id/twentyS23"
         android:layout_width="10dp"
         android:layout_height="20dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/blacknumberr"
         app:layout_constraintBottom_toTopOf="@+id/nineteenQ"
         app:layout_constraintStart_toEndOf="@+id/twenty"
@@ -422,6 +493,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="11"
+
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -444,6 +517,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="9"
+
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -457,9 +532,13 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="8S9"
+
         android:id="@+id/eightS9"
         android:layout_width="20dp"
         android:layout_height="10dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/blacknumbertl"
         app:layout_constraintBottom_toTopOf="@+id/eight"
         app:layout_constraintStart_toEndOf="@+id/fourQ"
@@ -468,15 +547,21 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
+        android:tag="11Q"
+
         android:id="@+id/elevenQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/rednumberq"
         app:layout_constraintBottom_toTopOf="@+id/eleven"
         app:layout_constraintStart_toEndOf="@+id/eleven"
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="5S8"
+
         android:id="@+id/fiveS8"
         android:layout_width="10dp"
         android:layout_height="20dp"
@@ -484,13 +569,17 @@
         app:layout_constraintBottom_toTopOf="@+id/fourQ"
         app:layout_constraintStart_toEndOf="@+id/five"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="150dp" />
+        android:onClick="onClick"
+        android:clickable="true"
+         />
 
     <ImageView
+        android:tag="10Q"
         android:id="@+id/tenQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/blacknumberq"
         app:layout_constraintStart_toEndOf="@+id/tenS11"
         app:layout_constraintTop_toBottomOf="@+id/eleven"
@@ -504,10 +593,11 @@
         app:layout_constraintBottom_toTopOf="@+id/eightQ"
         app:layout_constraintStart_toEndOf="@+id/nineS12"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="150dp" />
+        />
 
     <TextView
+        android:tag="12"
+
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -521,6 +611,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="12S15"
         android:id="@+id/twelveS15"
         android:layout_width="10dp"
         android:layout_height="30dp"
@@ -528,20 +619,28 @@
         app:layout_constraintBottom_toTopOf="@+id/elevenQ"
         app:layout_constraintStart_toEndOf="@+id/twelve"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="150dp" />
+        android:onClick="onClick"
+        android:clickable="true"
+        />
 
     <ImageView
+        android:tag="11S12"
+
         android:id="@+id/elevenS12"
         android:layout_width="20dp"
         android:layout_height="10dp"
+        android:onClick="onClick"
+        android:clickable="true"
         android:background="@drawable/rednumbertl"
         app:layout_constraintBottom_toTopOf="@+id/eleven"
         app:layout_constraintStart_toEndOf="@+id/sevenQ"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="149dp" />
+         />
 
     <ImageView
+        android:tag="11S14"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/elevenS14"
         android:layout_width="10dp"
         android:layout_height="20dp"
@@ -549,10 +648,12 @@
         app:layout_constraintBottom_toBottomOf="@+id/eleven"
         app:layout_constraintStart_toEndOf="@+id/eleven"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="150dp" />
+         />
 
     <ImageView
+        android:tag="10S13"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/tenS13"
         android:layout_width="10dp"
         android:layout_height="20dp"
@@ -572,6 +673,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="15"
+
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -585,16 +688,22 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="14S15"
+
         android:id="@+id/fourteenS15"
         android:layout_width="20dp"
         android:layout_height="10dp"
         android:background="@drawable/blacknumbertl"
-
+        android:onClick="onClick"
+        android:clickable="true"
         app:layout_constraintBottom_toTopOf="@+id/fourteen"
         app:layout_constraintStart_toEndOf="@+id/elevenQ"
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="14Q"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/fourteenQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
@@ -604,6 +713,8 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="14S17"
+
         android:id="@+id/fourteenS17"
         android:layout_width="10dp"
         android:layout_height="20dp"
@@ -611,10 +722,13 @@
         app:layout_constraintBottom_toTopOf="@+id/thirteenQ"
         app:layout_constraintStart_toEndOf="@+id/fourteen"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="150dp" />
+        android:onClick="onClick"
+        android:clickable="true" />
 
     <ImageView
+        android:tag="13Q"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/thirteenQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
@@ -635,6 +749,8 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <TextView
+        android:tag="14"
+
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -648,6 +764,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="15S18"
         android:id="@+id/fifteenS18"
         android:layout_width="10dp"
         android:layout_height="30dp"
@@ -657,6 +774,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="13S16"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/thirteenS16"
         android:layout_width="10dp"
         android:layout_height="20dp"
@@ -668,12 +788,15 @@
         />
 
     <ImageView
+        android:tag="13S14"
+
         android:id="@+id/thirteenS14"
         android:layout_width="20dp"
         android:layout_height="10dp"
         android:background="@drawable/rednumbertl"
         app:layout_constraintBottom_toTopOf="@+id/thirteen"
-
+        android:onClick="onClick"
+        android:clickable="true"
         app:layout_constraintStart_toEndOf="@+id/tenQ"
         tools:ignore="MissingConstraints" />
 
@@ -687,6 +810,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="13"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -709,6 +833,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="16"
+
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -722,6 +848,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="16S17"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/sixteenS17"
         android:layout_width="20dp"
         android:layout_height="10dp"
@@ -733,6 +862,7 @@
         />
 
     <ImageView
+        android:tag="16S19"
         android:id="@+id/sixteenS19"
         android:layout_width="10dp"
         android:layout_height="20dp"
@@ -740,8 +870,10 @@
         app:layout_constraintBottom_toBottomOf="@+id/sixteen"
         app:layout_constraintStart_toEndOf="@+id/sixteen"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="150dp" />
+
+        android:onClick="onClick"
+        android:clickable="true"
+        />
 
     <ImageView
         android:id="@+id/seventeen"
@@ -750,9 +882,11 @@
         android:background="@drawable/rednumberbl"
         app:layout_constraintBottom_toTopOf="@+id/sixteenS17"
         app:layout_constraintStart_toEndOf="@+id/fourteenS17"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        />
 
     <TextView
+        android:tag="17"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -766,6 +900,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="17S18"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/seventeenS18"
         android:layout_width="20dp"
         android:layout_height="10dp"
@@ -775,6 +912,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="17Q"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/seventeenQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
@@ -795,6 +935,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="18"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -808,6 +949,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="18S21"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/eighteenS21"
         android:layout_width="10dp"
         android:layout_height="30dp"
@@ -819,6 +963,9 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
+        android:tag="16Q"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/sixteenQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
@@ -828,6 +975,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="17S20"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/seventeenS20"
         android:layout_width="10dp"
         android:layout_height="20dp"
@@ -851,6 +1001,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="19"
+
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -864,6 +1016,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="19S20"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/nineteenS20"
         android:layout_width="20dp"
         android:layout_height="10dp"
@@ -874,6 +1029,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="19S22"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/nineteenS22"
         android:layout_width="10dp"
         android:layout_height="20dp"
@@ -894,6 +1052,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="20"
+
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -916,6 +1076,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="21"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -929,6 +1090,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="20S21"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentyS21"
         android:layout_width="20dp"
         android:layout_height="10dp"
@@ -940,6 +1104,9 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
+        android:tag="4Q"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/fourQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
@@ -949,6 +1116,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="22S25"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentytwoS25"
         android:layout_width="10dp"
         android:layout_height="20dp"
@@ -960,6 +1130,9 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
+        android:tag="5Q"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/fiveQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
@@ -969,6 +1142,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="6S9"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/sixS9"
         android:layout_width="10dp"
         android:layout_height="30dp"
@@ -989,6 +1165,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="22"
+
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -1002,6 +1180,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="22S23"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentytwoS23"
         android:layout_width="20dp"
         android:layout_height="10dp"
@@ -1013,6 +1194,9 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
+        android:tag="22Q"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentytwoQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
@@ -1022,6 +1206,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="24S27"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentyfourS27"
         android:layout_width="10dp"
         android:layout_height="30dp"
@@ -1033,6 +1220,9 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
+        android:tag="23Q"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentythreeQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
@@ -1055,6 +1245,7 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <TextView
+        android:tag="23"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -1077,6 +1268,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="25"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -1090,6 +1282,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="25S26"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentyfiveS26"
         android:layout_width="20dp"
         android:layout_height="10dp"
@@ -1100,6 +1295,9 @@
         tools:layout_editor_absoluteX="149dp" />
 
     <ImageView
+        android:tag="8S11"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/eightS11"
         android:layout_width="10dp"
         android:layout_height="20dp"
@@ -1118,6 +1316,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="26"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -1140,6 +1339,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="24"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -1153,6 +1353,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="23S24"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentythreeS24"
         android:layout_width="20dp"
         android:layout_height="10dp"
@@ -1164,6 +1367,9 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
+        android:tag="26Q"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentysixQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
@@ -1173,6 +1379,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="23S26"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentythreeS26"
         android:layout_width="10dp"
         android:layout_height="20dp"
@@ -1184,6 +1393,9 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
+        android:tag="25Q"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentyfiveQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
@@ -1204,6 +1416,7 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <TextView
+        android:tag="27"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -1217,6 +1430,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="27S30"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentysevenS30"
         android:layout_width="10dp"
         android:layout_height="30dp"
@@ -1228,6 +1444,9 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
+        android:tag="26S27"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentysixS27"
         android:layout_width="20dp"
         android:layout_height="10dp"
@@ -1238,6 +1457,9 @@
         tools:layout_editor_absoluteX="149dp" />
 
     <ImageView
+        android:tag="26S29"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentysixS29"
         android:layout_width="10dp"
         android:layout_height="20dp"
@@ -1249,6 +1471,9 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
+        android:tag="25S28"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentyfiveS28"
         android:layout_width="10dp"
         android:layout_height="20dp"
@@ -1268,6 +1493,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="30"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -1281,6 +1507,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="29S30"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentynineS30"
         android:layout_width="20dp"
         android:layout_height="10dp"
@@ -1292,6 +1521,9 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
+        android:tag="29Q"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentynineQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
@@ -1301,6 +1533,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="29S32"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentynineS32"
         android:layout_width="10dp"
         android:layout_height="20dp"
@@ -1312,6 +1547,9 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
+        android:tag="28Q"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentyeightQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
@@ -1332,6 +1570,8 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <TextView
+        android:tag="29"
+
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -1345,6 +1585,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="30S33"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/thirtyS33"
         android:layout_width="10dp"
         android:layout_height="30dp"
@@ -1354,6 +1597,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="28S31"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentyeightS31"
         android:layout_width="10dp"
         android:layout_height="20dp"
@@ -1365,6 +1611,9 @@
         />
 
     <ImageView
+        android:tag="28S29"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/twentyeightS29"
         android:layout_width="20dp"
         android:layout_height="10dp"
@@ -1385,6 +1634,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="28"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -1407,6 +1657,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="33"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -1420,6 +1671,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="32S33"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/thirtytwoS33"
         android:layout_width="20dp"
         android:layout_height="10dp"
@@ -1431,6 +1685,9 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
+        android:tag="32Q"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/thirtytwoQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
@@ -1440,6 +1697,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="32S35"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/thirtytwoS35"
         android:layout_width="10dp"
         android:layout_height="20dp"
@@ -1451,6 +1711,9 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
+        android:tag="31Q"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/thirtyoneQ"
         android:layout_width="10dp"
         android:layout_height="10dp"
@@ -1471,6 +1734,8 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <TextView
+        android:tag="32"
+
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -1484,6 +1749,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="33S36"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/thirtythreeS36"
         android:layout_width="10dp"
         android:layout_height="30dp"
@@ -1493,6 +1761,9 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="31S34"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/thirtyoneS34"
         android:layout_width="10dp"
         android:layout_height="20dp"
@@ -1504,6 +1775,9 @@
         />
 
     <ImageView
+        android:tag="31S32"
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/thirtyoneS32"
         android:layout_width="20dp"
         android:layout_height="10dp"
@@ -1522,6 +1796,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="31"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -1544,6 +1819,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="36"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -1558,6 +1834,7 @@
 
 
     <ImageView
+
         android:id="@+id/third"
         android:layout_width="20dp"
         android:layout_height="30dp"
@@ -1567,6 +1844,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="3RD"
         android:layout_width="20dp"
         android:layout_height="30dp"
         android:gravity="center"
@@ -1590,6 +1868,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="2ND"
         android:layout_width="20dp"
         android:layout_height="30dp"
         android:gravity="center"
@@ -1612,6 +1891,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="1ST"
         android:layout_width="20dp"
         android:layout_height="30dp"
         android:gravity="center"
@@ -1635,6 +1915,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="1-12"
         android:layout_width="120dp"
         android:layout_height="33dp"
         android:gravity="center"
@@ -1658,6 +1939,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="13-24"
         android:layout_width="120dp"
         android:layout_height="33dp"
         android:gravity="center"
@@ -1680,6 +1962,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="25-36"
         android:layout_width="120dp"
         android:layout_height="33dp"
         android:gravity="center"
@@ -1701,6 +1984,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="1-18"
         android:layout_width="60dp"
         android:layout_height="33dp"
         android:gravity="center"
@@ -1722,6 +2006,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="EVEN"
         android:layout_width="60dp"
         android:layout_height="33dp"
         android:gravity="center"
@@ -1743,6 +2028,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="RED"
         android:layout_width="60dp"
         android:layout_height="33dp"
         android:gravity="center"
@@ -1765,6 +2051,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="BLACK"
         android:layout_width="60dp"
         android:layout_height="33dp"
         android:gravity="center"
@@ -1787,6 +2074,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="ODD"
         android:layout_width="60dp"
         android:layout_height="33dp"
         android:gravity="center"
@@ -1808,10 +2096,11 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="19-36"
         android:layout_width="60dp"
         android:layout_height="33dp"
         android:gravity="center"
-        android:text="19-26"
+        android:text="19-36"
         android:textColor="@color/purple_500"
         app:layout_constraintStart_toEndOf="@id/odd"
         app:layout_constraintTop_toBottomOf="@id/first12"
@@ -1830,6 +2119,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="0"
         android:layout_width="30dp"
         android:layout_height="45dp"
         android:gravity="center"
@@ -1853,6 +2143,7 @@
 
 
     <TextView
+        android:tag="00"
         android:layout_width="30dp"
         android:layout_height="45dp"
         android:gravity="center"
@@ -1866,6 +2157,11 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="35S36"
+
+        android:onClick="onClick"
+        android:clickable="true"
+
         android:id="@+id/thirtyfiveS36"
         android:layout_width="30dp"
         android:layout_height="10dp"
@@ -1885,6 +2181,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="35"
+
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -1898,6 +2196,10 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:tag="34S35"
+
+        android:onClick="onClick"
+        android:clickable="true"
         android:id="@+id/thirtyfourS35"
         android:layout_width="30dp"
         android:layout_height="10dp"
@@ -1917,6 +2219,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="34"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -1942,9 +2245,14 @@
         app:layout_constraintEnd_toStartOf="@+id/greenchip"
         app:layout_constraintStart_toStartOf="@+id/one"
         app:layout_constraintTop_toBottomOf="@id/one18"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:onClick="pickChip"
+        android:clickable="true"
+        />
 
     <ImageView
+        android:onClick="pickChip"
+        android:clickable="true"
         android:id="@+id/greenchip"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -1956,6 +2264,8 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:onClick="pickChip"
+        android:clickable="true"
         android:id="@+id/bluechip"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -1965,6 +2275,8 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:onClick="pickChip"
+        android:clickable="true"
         android:id="@+id/graychip"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -1974,6 +2286,8 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:onClick="pickChip"
+        android:clickable="true"
         android:id="@+id/orangechip"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -1983,6 +2297,8 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:onClick="pickChip"
+        android:clickable="true"
         android:id="@+id/blackchip"
         android:layout_width="50dp"
         android:layout_height="50dp"
