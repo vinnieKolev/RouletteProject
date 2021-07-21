@@ -29,7 +29,7 @@
         <entry key="app/src/main/res/drawable/roundedcorner.xml" value="0.2405" />
         <entry key="app/src/main/res/drawable/splitnumber.xml" value="0.1605" />
         <entry key="app/src/main/res/drawable/touch_selector.xml" value="0.134" />
-        <entry key="app/src/main/res/layout-land/fragment_first.xml" value="0.13737945556640627" />
+        <entry key="app/src/main/res/layout-land/fragment_first.xml" value="0.1" />
         <entry key="app/src/main/res/layout-sw600dp/fragment_first.xml" value="0.28203125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.37604166666666666" />
@@ -39,7 +39,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

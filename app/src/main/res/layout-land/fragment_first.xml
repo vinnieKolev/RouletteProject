@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/offblack"
-    tools:context=".FirstFragment">
+    tools:context=".FirstFragment"
+    android:id="@+id/FirstFragment">
 
     <ImageView
         android:id="@+id/one"
         android:layout_width="20dp"
         android:layout_height="20dp"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.3"
@@ -22,6 +22,7 @@
         />
 
     <TextView
+        android:tag="1"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -30,6 +31,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/one"
         app:layout_constraintStart_toStartOf="@id/one"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -65,6 +68,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="2"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -73,6 +77,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/two"
         app:layout_constraintStart_toStartOf="@id/two"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -103,6 +109,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:tag="3"
         android:layout_width="20dp"
         android:layout_height="15dp"
         android:gravity="center"
@@ -111,6 +118,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/three"
         app:layout_constraintStart_toStartOf="@id/three"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -159,6 +168,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/four"
         app:layout_constraintStart_toStartOf="@id/four"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -198,6 +209,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/five"
         app:layout_constraintStart_toStartOf="@id/five"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -218,6 +231,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/six"
         app:layout_constraintStart_toStartOf="@id/six"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -288,6 +303,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/seven"
         app:layout_constraintStart_toStartOf="@id/seven"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -348,6 +365,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/eight"
         app:layout_constraintStart_toStartOf="@id/eight"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -368,6 +387,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/ten"
         app:layout_constraintStart_toStartOf="@id/ten"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -409,6 +430,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/eleven"
         app:layout_constraintStart_toStartOf="@id/eleven"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -429,6 +452,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/nine"
         app:layout_constraintStart_toStartOf="@id/nine"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -491,6 +516,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/twelve"
         app:layout_constraintStart_toStartOf="@id/twelve"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -553,6 +580,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/fifteen"
         app:layout_constraintStart_toStartOf="@id/fifteen"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -614,6 +643,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/fourteen"
         app:layout_constraintStart_toStartOf="@id/fourteen"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -664,6 +695,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/thirteen"
         app:layout_constraintStart_toStartOf="@id/thirteen"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -684,6 +717,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/sixteen"
         app:layout_constraintStart_toStartOf="@id/sixteen"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -726,6 +761,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/seventeen"
         app:layout_constraintStart_toStartOf="@id/seventeen"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -766,6 +803,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/eighteen"
         app:layout_constraintStart_toStartOf="@id/eighteen"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -820,6 +859,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/nineteen"
         app:layout_constraintStart_toStartOf="@id/nineteen"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -861,6 +902,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/twenty"
         app:layout_constraintStart_toStartOf="@id/twenty"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -881,6 +924,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/twentone"
         app:layout_constraintStart_toStartOf="@id/twentone"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -952,6 +997,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/twentytwo"
         app:layout_constraintStart_toStartOf="@id/twentytwo"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1016,6 +1063,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/twentythree"
         app:layout_constraintStart_toStartOf="@id/twentythree"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1036,6 +1085,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/twentyfive"
         app:layout_constraintStart_toStartOf="@id/twentyfive"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1075,6 +1126,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/twentysix"
         app:layout_constraintStart_toStartOf="@id/twentysix"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1095,6 +1148,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/twentyfour"
         app:layout_constraintStart_toStartOf="@id/twentyfour"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1157,6 +1212,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/twentyseven"
         app:layout_constraintStart_toStartOf="@id/twentyseven"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1219,6 +1276,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/thirty"
         app:layout_constraintStart_toStartOf="@id/thirty"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1281,6 +1340,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/twentynine"
         app:layout_constraintStart_toStartOf="@id/twentynine"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1332,6 +1393,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/twentyeight"
         app:layout_constraintStart_toStartOf="@id/twentyeight"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1352,6 +1415,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/thirtythree"
         app:layout_constraintStart_toStartOf="@id/thirtythree"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1414,6 +1479,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/thirtytwo"
         app:layout_constraintStart_toStartOf="@id/thirtytwo"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1463,6 +1530,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/thirtyone"
         app:layout_constraintStart_toStartOf="@id/thirtyone"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1483,6 +1552,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/thirtysix"
         app:layout_constraintStart_toStartOf="@id/thirtysix"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
 
@@ -1504,6 +1575,8 @@
         android:textColor="@color/purple_500"
         app:layout_constraintBottom_toTopOf="@id/second"
         app:layout_constraintStart_toEndOf="@id/thirtyfiveS36"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
 
@@ -1525,6 +1598,8 @@
         android:textColor="@color/purple_500"
         app:layout_constraintBottom_toTopOf="@id/first"
         app:layout_constraintStart_toEndOf="@+id/thirtyfourS35"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1545,6 +1620,8 @@
         android:textColor="@color/purple_500"
         app:layout_constraintBottom_toBottomOf="@id/thirtyfour"
         app:layout_constraintStart_toEndOf="@id/thirtyfour"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1565,6 +1642,8 @@
         android:textColor="@color/purple_500"
         app:layout_constraintStart_toStartOf="@id/one"
         app:layout_constraintTop_toBottomOf="@id/one"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
 
@@ -1586,6 +1665,8 @@
         android:textColor="@color/purple_500"
         app:layout_constraintStart_toEndOf="@id/first12"
         app:layout_constraintTop_toBottomOf="@id/one"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1606,6 +1687,8 @@
         android:textColor="@color/purple_500"
         app:layout_constraintStart_toEndOf="@id/second12"
         app:layout_constraintTop_toBottomOf="@id/one"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1625,6 +1708,8 @@
         android:textColor="@color/purple_500"
         app:layout_constraintStart_toStartOf="@id/one"
         app:layout_constraintTop_toBottomOf="@id/first12"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1644,6 +1729,8 @@
         android:textColor="@color/purple_500"
         app:layout_constraintStart_toEndOf="@id/one18"
         app:layout_constraintTop_toBottomOf="@id/first12"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1663,6 +1750,8 @@
         android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@id/even"
         app:layout_constraintTop_toBottomOf="@id/first12"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
 
@@ -1683,6 +1772,8 @@
         android:textColor="@color/white"
         app:layout_constraintStart_toEndOf="@id/red"
         app:layout_constraintTop_toBottomOf="@id/first12"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
 
@@ -1703,6 +1794,8 @@
         android:textColor="@color/purple_500"
         app:layout_constraintStart_toEndOf="@id/black"
         app:layout_constraintTop_toBottomOf="@id/first12"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1722,6 +1815,8 @@
         android:textColor="@color/purple_500"
         app:layout_constraintStart_toEndOf="@id/odd"
         app:layout_constraintTop_toBottomOf="@id/first12"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
 
@@ -1743,6 +1838,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/one"
         app:layout_constraintEnd_toStartOf="@+id/one"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1764,6 +1861,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/zero"
         app:layout_constraintEnd_toStartOf="@+id/one"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1794,6 +1893,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/thirtyfive"
         app:layout_constraintStart_toStartOf="@id/thirtyfive"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -1824,6 +1925,8 @@
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@id/thirtyfour"
         app:layout_constraintStart_toStartOf="@id/thirtyfour"
+        android:onClick="onClick"
+        android:clickable="true"
         tools:ignore="MissingConstraints" />
 
 
