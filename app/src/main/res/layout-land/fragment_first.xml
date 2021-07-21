@@ -11,13 +11,15 @@
         android:id="@+id/one"
         android:layout_width="20dp"
         android:layout_height="20dp"
-        android:background="@drawable/rednumberbl"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        android:background="@drawable/rednumberbl"
+        />
 
     <TextView
         android:layout_width="20dp"
