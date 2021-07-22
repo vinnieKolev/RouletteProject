@@ -41,9 +41,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-
         getWindow().getDecorView().setSystemUiVisibility(
                 View.SYSTEM_UI_FLAG_LAYOUT_STABLE
                         | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
@@ -66,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-        betcount = (TextView) findViewById(R.id.totalbet);
+
 
 
 
@@ -74,9 +71,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
-
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -106,6 +100,9 @@ public class MainActivity extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
 
+
+
+
     public void onClick(View view) {
 //       list.add(getResources().getResourceEntryName(view.getId()));
        list.add((String) view.getTag());
@@ -129,5 +126,4 @@ public class MainActivity extends AppCompatActivity {
         if(getResources().getResourceEntryName(view.getId()).equals("blackchip"))
             currentChip=100;
     }
-
 }
