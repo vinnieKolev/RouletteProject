@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="@drawable/tabe"
     tools:context=".FirstFragment"
-    android:id="@+id/FirstFragment">
+    android:id="@+id/FirstFragment"
+    android:fitsSystemWindows="false">
 
 
 
@@ -17,7 +18,7 @@
         android:background="@drawable/rednumberbl"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.529"
@@ -2326,10 +2327,9 @@
 
     <ImageView
         android:id="@+id/redchip"
-        android:layout_width="37dp"
-        android:layout_height="36dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="47dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/redchip"
         android:clickable="true"
         android:onClick="pickChip"
@@ -2341,8 +2341,8 @@
 
     <ImageView
         android:id="@+id/greenchip"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
+        android:layout_width="46dp"
+        android:layout_height="47dp"
         android:background="@drawable/greenchip"
         android:layout_marginTop="10dp"
         android:clickable="true"
@@ -2353,8 +2353,8 @@
 
     <ImageView
         android:id="@+id/bluechip"
-        android:layout_width="35dp"
-        android:layout_height="36dp"
+        android:layout_width="45dp"
+        android:layout_height="48dp"
         android:background="@drawable/bluechip"
         android:clickable="true"
         android:onClick="pickChip"
@@ -2365,8 +2365,8 @@
 
     <ImageView
         android:id="@+id/graychip"
-        android:layout_width="35dp"
-        android:layout_height="37dp"
+        android:layout_width="45dp"
+        android:layout_height="49dp"
         android:background="@drawable/graychip"
         android:clickable="true"
         android:onClick="pickChip"
@@ -2378,8 +2378,8 @@
         android:onClick="pickChip"
         android:clickable="true"
         android:id="@+id/orangechip"
-        android:layout_width="32dp"
-        android:layout_height="35dp"
+        android:layout_width="42dp"
+        android:layout_height="46dp"
         android:rotation="4"
         android:background="@drawable/orangechip"
         app:layout_constraintBottom_toBottomOf="@+id/greenchip"
@@ -2391,8 +2391,8 @@
         android:clickable="true"
         android:rotation="-5"
         android:id="@+id/blackchip"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="45dp"
+        android:layout_height="47dp"
         android:background="@drawable/blackchip"
         app:layout_constraintBottom_toBottomOf="@+id/orangechip"
         app:layout_constraintStart_toEndOf="@+id/orangechip"
@@ -2412,12 +2412,10 @@
         android:id="@+id/button_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
         android:text="Spin"
-        android:layout_marginLeft="125dp"
-
-
         android:textColor="@color/Linen"
-        app:layout_constraintBottom_toBottomOf="@+id/blackchip"
+        app:layout_constraintBottom_toBottomOf="@+id/redchip"
         app:layout_constraintStart_toEndOf="@+id/blackchip"
         tools:ignore="MissingConstraints" />
 
