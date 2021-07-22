@@ -1888,7 +1888,7 @@
 
     <TextView
         android:tag="36"
-        android:layout_width="40dp"
+        android:layout_width="60dp"
         android:layout_height="60dp"
         android:gravity="center"
         android:rotation="-90"
@@ -1920,7 +1920,7 @@
         android:gravity="center"
         android:rotation="-90"
         android:text="2-1"
-
+        android:textStyle="bold|italic"
         android:textColor="@color/Linen"
         app:layout_constraintBottom_toTopOf="@id/second"
         app:layout_constraintStart_toEndOf="@id/thirtyfiveS36"
@@ -1945,6 +1945,7 @@
         android:gravity="center"
         android:rotation="-90"
         android:text="2-1"
+        android:textStyle="bold|italic"
         android:textColor="@color/Linen"
         app:layout_constraintBottom_toTopOf="@id/first"
         app:layout_constraintStart_toEndOf="@+id/thirtyfourS35"
@@ -1968,6 +1969,7 @@
         android:gravity="center"
         android:rotation="-90"
         android:text="2-1"
+        android:textStyle="bold|italic"
         android:textColor="@color/Linen"
         app:layout_constraintBottom_toBottomOf="@id/thirtyfour"
         app:layout_constraintStart_toEndOf="@id/thirtyfour"
@@ -1991,6 +1993,7 @@
         android:layout_height="33dp"
         android:gravity="center"
         android:text="1st 12"
+        android:textStyle="bold|italic"
         android:textColor="@color/Linen"
         app:layout_constraintStart_toStartOf="@id/one"
         app:layout_constraintTop_toBottomOf="@id/one"
@@ -2015,6 +2018,7 @@
         android:layout_height="33dp"
         android:gravity="center"
         android:text="2nd 12"
+        android:textStyle="bold|italic"
         android:textColor="@color/Linen"
         app:layout_constraintStart_toEndOf="@id/first12"
         app:layout_constraintTop_toBottomOf="@id/one"
@@ -2039,6 +2043,7 @@
         android:gravity="center"
         android:text="3rd 12"
         android:textColor="@color/Linen"
+        android:textStyle="bold|italic"
         app:layout_constraintStart_toEndOf="@id/second12"
         app:layout_constraintTop_toBottomOf="@id/one"
         android:onClick="onClick"
@@ -2061,6 +2066,8 @@
         android:gravity="center"
         android:text="1-18"
         android:textColor="@color/Linen"
+        android:textStyle="bold|italic"
+
         app:layout_constraintStart_toStartOf="@id/one"
         app:layout_constraintTop_toBottomOf="@id/first12"
         android:onClick="onClick"
@@ -2082,6 +2089,7 @@
         android:layout_height="33dp"
         android:gravity="center"
         android:text="Even"
+        android:textStyle="bold|italic"
         android:textColor="@color/Linen"
         app:layout_constraintStart_toEndOf="@id/one18"
         app:layout_constraintTop_toBottomOf="@id/first12"
@@ -2105,6 +2113,8 @@
         android:gravity="center"
         android:text="Red"
         android:textColor="@color/Linen"
+        android:textStyle="bold|italic"
+
         app:layout_constraintStart_toEndOf="@id/even"
         app:layout_constraintTop_toBottomOf="@id/first12"
         android:onClick="onClick"
@@ -2128,6 +2138,7 @@
         android:gravity="center"
         android:text="Black"
         android:textColor="@color/Linen"
+        android:textStyle="bold|italic"
         app:layout_constraintStart_toEndOf="@id/red"
         app:layout_constraintTop_toBottomOf="@id/first12"
         android:onClick="onClick"
@@ -2150,6 +2161,7 @@
         android:layout_height="33dp"
         android:gravity="center"
         android:text="Odd"
+        android:textStyle="bold|italic"
         android:textColor="@color/Linen"
         app:layout_constraintStart_toEndOf="@id/black"
         app:layout_constraintTop_toBottomOf="@id/first12"
@@ -2172,6 +2184,7 @@
         android:layout_height="33dp"
         android:gravity="center"
         android:text="19-36"
+        android:textStyle="bold|italic"
         android:textColor="@color/Linen"
         app:layout_constraintStart_toEndOf="@id/odd"
         app:layout_constraintTop_toBottomOf="@id/first12"
@@ -2259,7 +2272,7 @@
         android:tag="35"
         android:textStyle="bold|italic"
         android:textSize="20dp"
-        android:layout_width="40dp"
+        android:layout_width="60dp"
         android:layout_height="40dp"
         android:gravity="center"
         android:rotation="-90"
@@ -2296,7 +2309,7 @@
 
     <TextView
         android:tag="34"
-        android:layout_width="40dp"
+        android:layout_width="60dp"
         android:layout_height="40dp"
         android:gravity="center"
         android:rotation="-90"
@@ -2404,4 +2417,20 @@
         app:layout_constraintBottom_toBottomOf="@+id/blackchip"
         app:layout_constraintStart_toEndOf="@+id/blackchip"
         tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/totalbet"
+
+        android:layout_width="120dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textColor="@color/Linen"
+        android:textStyle="bold|italic"
+
+        app:layout_constraintBottom_toBottomOf="@+id/button_first"
+        app:layout_constraintStart_toEndOf="@+id/button_first"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

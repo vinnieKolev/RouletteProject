@@ -21,6 +21,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -30,8 +31,10 @@ public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
+    TextView betcount;
     List<String> list = new ArrayList<String>();
     int currentChip=0;
+    int totalBet=0;
 
 
 
@@ -45,9 +48,11 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(binding.toolbar);
 
 
+
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+        betcount = (TextView) findViewById(R.id.totalbet);
 
 
         binding.fab.setOnClickListener(new View.OnClickListener() {
@@ -67,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
+
         return true;
     }
     @Override
@@ -86,6 +92,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onSupportNavigateUp() {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
+        
         return NavigationUI.navigateUp(navController, appBarConfiguration)
                 || super.onSupportNavigateUp();
     }
@@ -94,9 +101,11 @@ public class MainActivity extends AppCompatActivity {
 //       list.add(getResources().getResourceEntryName(view.getId()));
        list.add((String) view.getTag());
 
+        totalBet+=currentChip;
+        betcount.setText("Total bet: "+Integer.toString(totalBet));
+
+
     }
-
-
     public void pickChip(View view) {
         if(getResources().getResourceEntryName(view.getId()).equals("redchip"))
             currentChip=5;
