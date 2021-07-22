@@ -1,5 +1,7 @@
 package com.example.roulette;
 
+import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -17,6 +19,8 @@ import com.example.roulette.databinding.ActivityMainBinding;
 
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -107,4 +111,5 @@ public class MainActivity extends AppCompatActivity {
         if(getResources().getResourceEntryName(view.getId()).equals("blackchip"))
             currentChip=100;
     }
+
 }

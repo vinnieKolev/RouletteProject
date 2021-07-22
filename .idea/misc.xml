@@ -20,22 +20,25 @@
         <entry key="app/src/main/res/drawable/rednumber.xml" value="0.179" />
         <entry key="app/src/main/res/drawable/rednumberbl.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/rednumberq.xml" value="0.2095" />
+        <entry key="app/src/main/res/drawable/rednumberr.xml" value="0.2125" />
         <entry key="app/src/main/res/drawable/rednumbertl.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/redpiece.xml" value="0.2095" />
         <entry key="app/src/main/res/drawable/redpiece2.xml" value="0.2095" />
         <entry key="app/src/main/res/drawable/redround.xml" value="0.179" />
         <entry key="app/src/main/res/drawable/redspecial.xml" value="0.237" />
         <entry key="app/src/main/res/drawable/redspecial2.xml" value="0.237" />
+        <entry key="app/src/main/res/drawable/redtouch_selector.xml" value="0.2125" />
         <entry key="app/src/main/res/drawable/roundedcorner.xml" value="0.2405" />
         <entry key="app/src/main/res/drawable/splitnumber.xml" value="0.1605" />
         <entry key="app/src/main/res/drawable/touch_selector.xml" value="0.134" />
-        <entry key="app/src/main/res/layout-land/fragment_first.xml" value="0.30245666503906254" />
+        <entry key="app/src/main/res/layout-land/fragment_first.xml" value="0.10245056152343754" />
         <entry key="app/src/main/res/layout-sw600dp/fragment_first.xml" value="0.28203125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/fragment_first.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_second.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/menu/menu_main.xml" value="0.315625" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.214" />
       </map>
     </option>
   </component>
@@ -44,5 +47,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="1.1224929809570314" />
+      </ProjectState>
+    </option>
   </component>
 </project>
