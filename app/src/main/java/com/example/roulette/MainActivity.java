@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     TextView betcount;
     List<String> list = new ArrayList<String>();
     int currentChip=0;
-    int totalBet=0;
+    int totalBet;
 
 
 
@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        totalBet=0;
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
@@ -55,13 +56,7 @@ public class MainActivity extends AppCompatActivity {
         betcount = (TextView) findViewById(R.id.totalbet);
 
 
-        binding.fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
 
 
     }
@@ -92,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onSupportNavigateUp() {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
-        
+
         return NavigationUI.navigateUp(navController, appBarConfiguration)
                 || super.onSupportNavigateUp();
     }
@@ -102,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
        list.add((String) view.getTag());
 
         totalBet+=currentChip;
-        betcount.setText("Total bet: "+Integer.toString(totalBet));
+        betcount.setText("Total bet: "+ totalBet);
 
 
     }
