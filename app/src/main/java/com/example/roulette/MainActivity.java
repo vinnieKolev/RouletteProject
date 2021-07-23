@@ -41,6 +41,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        setContentView(R.layout.fragment_first);
+
         getWindow().getDecorView().setSystemUiVisibility(
                 View.SYSTEM_UI_FLAG_LAYOUT_STABLE
                         | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
@@ -51,18 +54,17 @@ public class MainActivity extends AppCompatActivity {
 
 
         totalBet=0;
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
-
-
-        setContentView(binding.getRoot());
-
-        setSupportActionBar(binding.toolbar);
-
-
-
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
-        appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+//        binding = ActivityMainBinding.inflate(getLayoutInflater());
+//
+//        setContentView(binding.getRoot());
+//
+//        setSupportActionBar(binding.toolbar);
+//
+//
+//
+//        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
+//        appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
+//        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
 
 
 
