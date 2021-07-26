@@ -18,10 +18,10 @@
         android:background="@color/red"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.698"
+        app:layout_constraintVertical_bias="0.423"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -4513,91 +4513,90 @@
 
 
 
-    <!--    <ImageView-->
-<!--        android:id="@+id/redchip"-->
-<!--        android:layout_width="47dp"-->
-<!--        android:layout_height="48dp"-->
-<!--        android:layout_marginTop="16dp"-->
-<!--        android:background="@drawable/redchip"-->
-<!--        android:clickable="true"-->
-<!--        android:onClick="pickChip"-->
-<!--        app:layout_constraintEnd_toStartOf="@+id/greenchip"-->
-<!--        app:layout_constraintHorizontal_bias="0.0"-->
-<!--        app:layout_constraintStart_toStartOf="@+id/one"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/one18"-->
-<!--        tools:ignore="MissingConstraints" />-->
-<!---->
-<!--    <ImageView-->
-<!--        android:id="@+id/greenchip"-->
-<!--        android:layout_width="46dp"-->
-<!--        android:layout_height="47dp"-->
-<!--        android:background="@drawable/greenchip"-->
-<!--        android:layout_marginTop="10dp"-->
-<!--        android:clickable="true"-->
-<!--        android:onClick="pickChip"-->
-<!--        app:layout_constraintBottom_toBottomOf="@+id/graychip"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/graychip"-->
-<!--        tools:ignore="MissingConstraints" />-->
-<!---->
-<!--    <ImageView-->
-<!--        android:id="@+id/bluechip"-->
-<!--        android:layout_width="45dp"-->
-<!--        android:layout_height="48dp"-->
-<!--        android:background="@drawable/bluechip"-->
-<!--        android:clickable="true"-->
-<!--        android:onClick="pickChip"-->
+        <ImageView
+        android:id="@+id/redchip"
+        android:layout_width="47dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/redchip"
+        android:clickable="true"
+        android:onClick="pickChip"
+        app:layout_constraintEnd_toStartOf="@+id/greenchip"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/one"
+        app:layout_constraintTop_toBottomOf="@id/one18"
+        tools:ignore="MissingConstraints" />
 
-<!--        app:layout_constraintBottom_toBottomOf="@+id/redchip"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/redchip"-->
-<!--        tools:ignore="MissingConstraints" />-->
-<!---->
-<!--    <ImageView-->
-<!--        android:id="@+id/graychip"-->
-<!--        android:layout_width="45dp"-->
-<!--        android:layout_height="49dp"-->
-<!--        android:background="@drawable/graychip"-->
-<!--        android:clickable="true"-->
-<!--        android:onClick="pickChip"-->
-<!--        app:layout_constraintBottom_toBottomOf="@+id/bluechip"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/bluechip"-->
-<!--        tools:ignore="MissingConstraints" />-->
-<!---->
-<!--    <ImageView-->
-<!--        android:onClick="pickChip"-->
-<!--        android:clickable="true"-->
-<!--        android:id="@+id/orangechip"-->
-<!--        android:layout_width="42dp"-->
-<!--        android:layout_height="46dp"-->
-<!--        android:rotation="4"-->
-<!--        android:background="@drawable/orangechip"-->
-<!--        app:layout_constraintBottom_toBottomOf="@+id/greenchip"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/greenchip"-->
-<!--        tools:ignore="MissingConstraints" />-->
-<!---->
-<!--    <ImageView-->
-<!--        android:onClick="pickChip"-->
-<!--        android:clickable="true"-->
-<!--        android:rotation="-5"-->
-<!--        android:id="@+id/blackchip"-->
-<!--        android:layout_width="45dp"-->
-<!--        android:layout_height="47dp"-->
-<!--        android:background="@drawable/blackchip"-->
-<!--        app:layout_constraintBottom_toBottomOf="@+id/orangechip"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/orangechip"-->
-<!--        tools:ignore="MissingConstraints" />-->
-<!---->
-<!---->
-<!--    <Button-->
-<!--        android:id="@+id/button_first"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginStart="175dp"-->
-<!--        android:text="Spin"-->
-<!--        android:textColor="@color/Linen"-->
-<!--        app:layout_constraintBottom_toBottomOf="@+id/redchip"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/blackchip"-->
-<!--        tools:ignore="MissingConstraints" />-->
-<!---->
+    <ImageView
+        android:id="@+id/greenchip"
+        android:layout_width="46dp"
+        android:layout_height="47dp"
+        android:background="@drawable/greenchip"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:onClick="pickChip"
+        app:layout_constraintBottom_toBottomOf="@+id/graychip"
+        app:layout_constraintStart_toEndOf="@+id/graychip"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/bluechip"
+        android:layout_width="45dp"
+        android:layout_height="48dp"
+        android:background="@drawable/bluechip"
+        android:clickable="true"
+        android:onClick="pickChip"
+        app:layout_constraintBottom_toBottomOf="@+id/redchip"
+        app:layout_constraintStart_toEndOf="@+id/redchip"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/graychip"
+        android:layout_width="45dp"
+        android:layout_height="49dp"
+        android:background="@drawable/graychip"
+        android:clickable="true"
+        android:onClick="pickChip"
+        app:layout_constraintBottom_toBottomOf="@+id/bluechip"
+        app:layout_constraintStart_toEndOf="@+id/bluechip"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:onClick="pickChip"
+        android:clickable="true"
+        android:id="@+id/orangechip"
+        android:layout_width="42dp"
+        android:layout_height="46dp"
+        android:rotation="4"
+        android:background="@drawable/orangechip"
+        app:layout_constraintBottom_toBottomOf="@+id/greenchip"
+        app:layout_constraintStart_toEndOf="@+id/greenchip"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:onClick="pickChip"
+        android:clickable="true"
+        android:rotation="-5"
+        android:id="@+id/blackchip"
+        android:layout_width="45dp"
+        android:layout_height="47dp"
+        android:background="@drawable/blackchip"
+        app:layout_constraintBottom_toBottomOf="@+id/orangechip"
+        app:layout_constraintStart_toEndOf="@+id/orangechip"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:text="Spin"
+        android:textColor="@color/Linen"
+        app:layout_constraintBottom_toBottomOf="@+id/redchip"
+        app:layout_constraintStart_toEndOf="@+id/blackchip"
+        tools:ignore="MissingConstraints" />
+
     <TextView
         android:id="@+id/totalbet"
         android:layout_width="96dp"

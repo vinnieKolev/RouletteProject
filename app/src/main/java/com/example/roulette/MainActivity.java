@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     TextView betcount;
     List<String> list = new ArrayList<String>();
     int currentChip=0;
-    int totalBet;
+    int totalBet=0;
 
 
 
@@ -43,6 +43,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.fragment_first);
+
+        betcount = (TextView) findViewById(R.id.totalbet);
+        betcount.setText("Total Bet: "+totalBet);
+
 
         getWindow().getDecorView().setSystemUiVisibility(
                 View.SYSTEM_UI_FLAG_LAYOUT_STABLE
@@ -53,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                         | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
 
 
-        totalBet=0;
+
 //        binding = ActivityMainBinding.inflate(getLayoutInflater());
 //
 //        setContentView(binding.getRoot());
@@ -108,8 +112,8 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view) {
 //       list.add(getResources().getResourceEntryName(view.getId()));
        list.add((String) view.getTag());
-
         totalBet+=currentChip;
+        betcount.setText("Total Bet: "+totalBet);
 
 
 
