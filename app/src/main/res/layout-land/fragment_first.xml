@@ -1138,7 +1138,7 @@
         android:id="@+id/eleven"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/elevenS8"
         app:layout_constraintStart_toEndOf="@+id/elevenS8"
         tools:ignore="MissingConstraints" />
@@ -1260,7 +1260,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumberq"
+        android:background="@drawable/blacknumberq"
         app:layout_constraintBottom_toTopOf="@+id/eleven"
         app:layout_constraintStart_toEndOf="@+id/eleven"
         tools:ignore="MissingConstraints" />
@@ -1295,7 +1295,7 @@
         android:id="@+id/twelve"
         android:layout_width="24dp"
         android:layout_height="36dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toTopOf="@+id/twelveBM"
         app:layout_constraintStart_toEndOf="@+id/twelveS9"
         tools:ignore="MissingConstraints"
@@ -1323,7 +1323,7 @@
         android:id="@+id/twelveS15"
         android:layout_width="12dp"
         android:layout_height="36dp"
-        android:background="@drawable/blacknumberq"
+        android:background="@drawable/rednumberq"
         app:layout_constraintBottom_toTopOf="@+id/twelveBRQ"
         app:layout_constraintStart_toEndOf="@+id/twelve"
         tools:ignore="MissingConstraints"
@@ -1341,7 +1341,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/blacknumberbl"
+        android:background="@drawable/rednumberbl"
         app:layout_constraintTop_toBottomOf="@+id/twelveS9"
         app:layout_constraintStart_toEndOf="@id/nineBRQ"
         tools:ignore="MissingConstraints" />
@@ -1363,7 +1363,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/blacknumberr"
+        android:background="@drawable/rednumberr"
         app:layout_constraintBottom_toBottomOf="@+id/twelveBM"
         app:layout_constraintStart_toEndOf="@+id/twelveBM"
         tools:ignore="MissingConstraints" />
@@ -1374,7 +1374,7 @@
         android:clickable="true"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toTopOf="@+id/elevenS12"
         app:layout_constraintStart_toEndOf="@+id/elevenBLQ"
         tools:ignore="MissingConstraints"
@@ -1387,7 +1387,7 @@
         android:clickable="true"
         android:layout_width="12dp"
         android:layout_height="36dp"
-        android:background="@drawable/blacknumbertl"
+        android:background="@drawable/rednumbertl"
         app:layout_constraintBottom_toBottomOf="@+id/nineS12"
         app:layout_constraintStart_toEndOf="@+id/nineS12"
         tools:ignore="MissingConstraints"
@@ -1404,7 +1404,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/elevenS8"
         app:layout_constraintStart_toEndOf="@+id/elevenS8"
         tools:ignore="MissingConstraints"
@@ -1417,7 +1417,7 @@
         android:id="@+id/elevenS14"
         android:layout_width="12dp"
         android:layout_height="24dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/eleven"
         app:layout_constraintStart_toEndOf="@+id/eleven"
         tools:ignore="MissingConstraints"
@@ -1431,7 +1431,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumberbl"
+        android:background="@drawable/blacknumberbl"
         app:layout_constraintBottom_toTopOf="@+id/tenTLQ"
         app:layout_constraintStart_toEndOf="@+id/eightBRQ"
         tools:ignore="MissingConstraints" />
@@ -1442,7 +1442,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumbertl"
+        android:background="@drawable/blacknumbertl"
         app:layout_constraintBottom_toTopOf="@+id/elevenS8"
         app:layout_constraintStart_toStartOf="@+id/elevenS8"
         tools:ignore="MissingConstraints" />
@@ -1453,7 +1453,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumberr"
+        android:background="@drawable/blacknumberr"
         app:layout_constraintTop_toBottomOf="@+id/elevenS14"
         app:layout_constraintStart_toEndOf="@+id/elevenBM"
         tools:ignore="MissingConstraints" />
@@ -1464,7 +1464,7 @@
         android:clickable="true"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/elevenBLQ"
         app:layout_constraintStart_toEndOf="@+id/elevenBLQ"
         tools:ignore="MissingConstraints"
@@ -1477,7 +1477,7 @@
         android:clickable="true"
         android:layout_width="12dp"
         android:layout_height="24dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/eightS11"
         app:layout_constraintStart_toEndOf="@+id/eightS11"
         tools:ignore="MissingConstraints"
@@ -1566,7 +1566,7 @@
         android:id="@+id/fifteen"
         android:layout_width="24dp"
         android:layout_height="36dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@id/fifteenS12"
         app:layout_constraintStart_toStartOf="@id/fifteenBM"
         tools:ignore="MissingConstraints" />
@@ -1594,7 +1594,7 @@
         android:id="@+id/fourteenS15"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/black"
+        android:background="@color/red"
         android:onClick="onClick"
         android:clickable="true"
         app:layout_constraintBottom_toTopOf="@+id/fourteen"
@@ -1608,7 +1608,7 @@
         android:id="@+id/fourteenQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
-        android:background="@drawable/blacknumberq"
+        android:background="@drawable/rednumberq"
         app:layout_constraintBottom_toTopOf="@+id/fourteen"
         app:layout_constraintStart_toEndOf="@+id/fourteen"
         tools:ignore="MissingConstraints" />
@@ -1619,7 +1619,7 @@
         android:id="@+id/fourteenS17"
         android:layout_width="12dp"
         android:layout_height="24dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toTopOf="@+id/fourteenBRQ"
         app:layout_constraintStart_toEndOf="@+id/fourteen"
         tools:ignore="MissingConstraints"
@@ -1636,7 +1636,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/blacknumberbl"
+        android:background="@drawable/rednumberbl"
         app:layout_constraintBottom_toTopOf="@+id/thirteenQ"
         app:layout_constraintStart_toEndOf="@+id/elevenBRQ"
         tools:ignore="MissingConstraints" />
@@ -1647,7 +1647,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/blacknumbertl"
+        android:background="@drawable/rednumbertl"
         app:layout_constraintBottom_toTopOf="@+id/fourteenS11"
         app:layout_constraintStart_toStartOf="@+id/fourteenS11"
         tools:ignore="MissingConstraints" />
@@ -1658,7 +1658,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/blacknumberr"
+        android:background="@drawable/rednumberr"
         app:layout_constraintTop_toBottomOf="@+id/two"
         app:layout_constraintStart_toEndOf="@+id/fourteenBM"
         tools:ignore="MissingConstraints" />
@@ -1669,7 +1669,7 @@
         android:clickable="true"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toBottomOf="@+id/fourteenBLQ"
         app:layout_constraintStart_toEndOf="@+id/fourteenBLQ"
         tools:ignore="MissingConstraints" />
@@ -1680,7 +1680,7 @@
         android:clickable="true"
         android:layout_width="12dp"
         android:layout_height="24dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toBottomOf="@+id/elevenS14"
         app:layout_constraintStart_toEndOf="@+id/elevenS14"
         tools:ignore="MissingConstraints"
@@ -1695,7 +1695,7 @@
         android:id="@+id/thirteenQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
-        android:background="@drawable/rednumberq"
+        android:background="@drawable/blacknumberq"
         app:layout_constraintBottom_toTopOf="@+id/thirteen"
         app:layout_constraintStart_toEndOf="@+id/thirteen"
         tools:ignore="MissingConstraints" />
@@ -1704,7 +1704,7 @@
         android:id="@+id/fourteen"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toTopOf="@+id/fourteenBM"
         app:layout_constraintStart_toEndOf="@+id/fourteenS11"
         tools:ignore="MissingConstraints"
@@ -1734,7 +1734,7 @@
 
         android:layout_width="12dp"
         android:layout_height="36dp"
-        android:background="@drawable/rednumberq"
+        android:background="@drawable/blacknumberq"
         app:layout_constraintBottom_toBottomOf="@+id/fifteen"
         app:layout_constraintStart_toEndOf="@+id/fifteen"
         tools:ignore="MissingConstraints" />
@@ -1747,7 +1747,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumberbl"
+        android:background="@drawable/blacknumberbl"
         app:layout_constraintBottom_toTopOf="@+id/eightTLQ"
         app:layout_constraintStart_toEndOf="@+id/twelveBRQ"
         tools:ignore="MissingConstraints" />
@@ -1760,7 +1760,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumberr"
+        android:background="@drawable/blacknumberr"
         app:layout_constraintBottom_toTopOf="@+id/fourteenQ"
         app:layout_constraintStart_toEndOf="@+id/fifteenBM"
         tools:ignore="MissingConstraints" />
@@ -1771,7 +1771,7 @@
         android:clickable="true"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/nine"
         app:layout_constraintStart_toEndOf="@+id/fifteenBLQ"
         tools:ignore="MissingConstraints"
@@ -1784,7 +1784,7 @@
         android:clickable="true"
         android:layout_width="12dp"
         android:layout_height="36dp"
-        android:background="@drawable/rednumbertl"
+        android:background="@drawable/blacknumbertl"
         app:layout_constraintBottom_toBottomOf="@+id/sixS9"
         app:layout_constraintStart_toEndOf="@+id/twelveS15"
         tools:ignore="MissingConstraints"
@@ -1799,7 +1799,7 @@
 
         android:layout_width="12dp"
         android:layout_height="24dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/thirteen"
         app:layout_constraintStart_toEndOf="@+id/thirteen"
         tools:ignore="MissingConstraints"
@@ -1816,7 +1816,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumberbl"
+        android:background="@drawable/blacknumberbl"
         app:layout_constraintBottom_toBottomOf="@+id/tenBRQ"
         app:layout_constraintStart_toEndOf="@+id/tenBRQ"
         tools:ignore="MissingConstraints" />
@@ -1827,7 +1827,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumbertl"
+        android:background="@drawable/blacknumbertl"
         app:layout_constraintBottom_toTopOf="@+id/thirteenS10"
         app:layout_constraintStart_toStartOf="@+id/thirteenBLQ"
         tools:ignore="MissingConstraints" />
@@ -1839,7 +1839,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumberr"
+        android:background="@drawable/blacknumberr"
         app:layout_constraintTop_toBottomOf="@+id/thirteenS16"
         app:layout_constraintStart_toEndOf="@+id/thirteenBM"
         tools:ignore="MissingConstraints" />
@@ -1850,7 +1850,7 @@
         android:clickable="true"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/thirteenBLQ"
         app:layout_constraintStart_toEndOf="@+id/thirteenBLQ"
         tools:ignore="MissingConstraints"
@@ -1863,7 +1863,7 @@
         android:clickable="true"
         android:layout_width="12dp"
         android:layout_height="24dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/thirteen"
         app:layout_constraintStart_toEndOf="@+id/tenS13"
         tools:ignore="MissingConstraints"
@@ -1877,7 +1877,7 @@
         android:id="@+id/thirteenS14"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/thirteen"
         android:onClick="onClick"
         android:clickable="true"
@@ -1888,7 +1888,7 @@
         android:id="@+id/thirteen"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/ten"
         app:layout_constraintStart_toEndOf="@+id/thirteenS10"
         tools:ignore="MissingConstraints" />
@@ -1913,7 +1913,7 @@
         android:id="@+id/sixteen"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toBottomOf="@+id/thirteenS16"
         app:layout_constraintStart_toEndOf="@+id/sixteenS13"
         tools:ignore="MissingConstraints" />
@@ -1942,7 +1942,7 @@
         android:id="@+id/sixteenS17"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toTopOf="@+id/sixteen"
         app:layout_constraintStart_toEndOf="@+id/sixteenTLQ"
         tools:ignore="MissingConstraints"
@@ -1954,7 +1954,7 @@
         android:id="@+id/sixteenS19"
         android:layout_width="12dp"
         android:layout_height="24dp"
-        android:background="@drawable/blacknumberr"
+        android:background="@color/red"
         app:layout_constraintBottom_toBottomOf="@+id/sixteen"
         app:layout_constraintStart_toEndOf="@+id/sixteen"
         tools:ignore="MissingConstraints"
@@ -1969,7 +1969,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/blacknumberbl"
+        android:background="@drawable/rednumberbl"
         app:layout_constraintBottom_toBottomOf="@id/thirteenBRQ"
         app:layout_constraintStart_toEndOf="@+id/thirteenBRQ"
         tools:ignore="MissingConstraints" />
@@ -1980,7 +1980,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/blacknumbertl"
+        android:background="@drawable/rednumbertl"
         app:layout_constraintBottom_toTopOf="@+id/sixteenS13"
         app:layout_constraintStart_toStartOf="@+id/sixteenS13"
         tools:ignore="MissingConstraints" />
@@ -1991,7 +1991,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/blacknumberr"
+        android:background="@drawable/rednumberr"
         app:layout_constraintBottom_toBottomOf="@+id/sixteenBM"
         app:layout_constraintStart_toEndOf="@+id/sixteenBM"
         tools:ignore="MissingConstraints" />
@@ -2002,7 +2002,7 @@
         android:clickable="true"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toBottomOf="@+id/sixteenBLQ"
         app:layout_constraintStart_toEndOf="@+id/sixteenBLQ"
         tools:ignore="MissingConstraints"
@@ -2015,7 +2015,7 @@
         android:clickable="true"
         android:layout_width="12dp"
         android:layout_height="24dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toBottomOf="@+id/thirteenS16"
         app:layout_constraintStart_toEndOf="@+id/thirteenS16"
         tools:ignore="MissingConstraints"
@@ -2026,7 +2026,7 @@
         android:id="@+id/seventeen"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/seventeenBM"
         app:layout_constraintStart_toEndOf="@+id/seventeenS14"
         tools:ignore="MissingConstraints"
@@ -2055,7 +2055,7 @@
         android:id="@+id/seventeenS18"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/seventeen"
         app:layout_constraintStart_toEndOf="@+id/seventeenTLQ"
         tools:ignore="MissingConstraints" />
@@ -2067,7 +2067,7 @@
         android:id="@+id/seventeenQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
-        android:background="@drawable/rednumberq"
+        android:background="@drawable/blacknumberq"
         app:layout_constraintBottom_toTopOf="@+id/seventeen"
         app:layout_constraintStart_toEndOf="@+id/seventeen"
         tools:ignore="MissingConstraints"
@@ -2078,7 +2078,7 @@
         android:id="@+id/eighteen"
         android:layout_width="24dp"
         android:layout_height="36dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toTopOf="@+id/eighteenBM"
         app:layout_constraintStart_toEndOf="@+id/eighteenS15"
         tools:ignore="MissingConstraints" />
@@ -2106,7 +2106,7 @@
         android:id="@+id/eighteenS21"
         android:layout_width="12dp"
         android:layout_height="36dp"
-        android:background="@drawable/blacknumberq"
+        android:background="@drawable/rednumberq"
         app:layout_constraintBottom_toTopOf="@+id/eighteenBRQ"
         app:layout_constraintStart_toEndOf="@+id/eighteen"
         tools:ignore="MissingConstraints"
@@ -2123,7 +2123,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/blacknumberbl"
+        android:background="@drawable/rednumberbl"
         app:layout_constraintTop_toBottomOf="@+id/twelveS9"
         app:layout_constraintStart_toEndOf="@id/fifteenBRQ"
         tools:ignore="MissingConstraints" />
@@ -2135,7 +2135,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/blacknumberr"
+        android:background="@drawable/rednumberr"
         app:layout_constraintBottom_toBottomOf="@+id/eighteenBM"
         app:layout_constraintStart_toEndOf="@+id/eighteenBM"
         tools:ignore="MissingConstraints" />
@@ -2146,7 +2146,7 @@
         android:clickable="true"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toTopOf="@+id/elevenS12"
         app:layout_constraintStart_toEndOf="@+id/eighteenBLQ"
         tools:ignore="MissingConstraints"
@@ -2159,7 +2159,7 @@
         android:clickable="true"
         android:layout_width="12dp"
         android:layout_height="36dp"
-        android:background="@drawable/blacknumbertl"
+        android:background="@drawable/rednumbertl"
         app:layout_constraintBottom_toBottomOf="@+id/nineS12"
         app:layout_constraintStart_toEndOf="@+id/fifteenS18"
         tools:ignore="MissingConstraints"
@@ -2175,7 +2175,7 @@
         android:id="@+id/sixteenQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
-        android:background="@drawable/blacknumberq"
+        android:background="@drawable/rednumberq"
         app:layout_constraintBottom_toTopOf="@+id/sixteen"
         app:layout_constraintStart_toEndOf="@+id/sixteen"
         tools:ignore="MissingConstraints" />
@@ -2187,7 +2187,7 @@
         android:id="@+id/seventeenS20"
         android:layout_width="12dp"
         android:layout_height="24dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/seventeenBRQ"
         app:layout_constraintStart_toEndOf="@+id/seventeen"
         tools:ignore="MissingConstraints"
@@ -2206,7 +2206,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumberbl"
+        android:background="@drawable/blacknumberbl"
         app:layout_constraintBottom_toTopOf="@+id/sixteenTLQ"
         app:layout_constraintStart_toEndOf="@+id/fourteenBRQ"
         tools:ignore="MissingConstraints" />
@@ -2217,7 +2217,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumbertl"
+        android:background="@drawable/blacknumbertl"
         app:layout_constraintBottom_toTopOf="@+id/seventeenS14"
         app:layout_constraintStart_toStartOf="@+id/seventeenS14"
         tools:ignore="MissingConstraints" />
@@ -2228,7 +2228,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumberr"
+        android:background="@drawable/blacknumberr"
         app:layout_constraintBottom_toBottomOf="@+id/seventeenBM"
         app:layout_constraintStart_toEndOf="@+id/seventeenBM"
         tools:ignore="MissingConstraints" />
@@ -2239,7 +2239,7 @@
         android:clickable="true"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/seventeenBLQ"
         app:layout_constraintStart_toEndOf="@+id/seventeenBLQ"
         tools:ignore="MissingConstraints"
@@ -2252,7 +2252,7 @@
         android:clickable="true"
         android:layout_width="12dp"
         android:layout_height="24dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/fourteenS17"
         app:layout_constraintStart_toEndOf="@+id/fourteenS17"
         tools:ignore="MissingConstraints"
@@ -3066,7 +3066,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@color/black"
+        android:background="@drawable/blacknumberbl"
         app:layout_constraintBottom_toTopOf="@+id/twentyfiveTLQ"
         app:layout_constraintStart_toEndOf="@+id/twentythreeBRQ"
         tools:ignore="MissingConstraints" />
@@ -3088,7 +3088,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@color/black"
+        android:background="@drawable/blacknumberr"
         app:layout_constraintTop_toBottomOf="@+id/twentysixS29"
         app:layout_constraintStart_toEndOf="@+id/twentysixBM"
         tools:ignore="MissingConstraints" />
@@ -3201,7 +3201,7 @@
         android:id="@+id/thirty"
         android:layout_width="24dp"
         android:layout_height="36dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toTopOf="@id/thirtyBM"
         app:layout_constraintStart_toEndOf="@id/thirtyS27"
         tools:ignore="MissingConstraints" />
@@ -3229,7 +3229,7 @@
         android:id="@+id/twentynineS30"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/twentynine"
         app:layout_constraintStart_toEndOf="@+id/twentynineTLQ"
         tools:ignore="MissingConstraints"
@@ -3243,7 +3243,7 @@
         android:id="@+id/twentynineQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
-        android:background="@drawable/rednumberq"
+        android:background="@drawable/blacknumberq"
         app:layout_constraintBottom_toTopOf="@+id/twentynine"
         app:layout_constraintStart_toEndOf="@+id/twentynine"
         tools:ignore="MissingConstraints" />
@@ -3255,7 +3255,7 @@
         android:id="@+id/twentynineS32"
         android:layout_width="12dp"
         android:layout_height="24dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/twentynineBRQ"
         app:layout_constraintStart_toEndOf="@+id/twentynine"
         tools:ignore="MissingConstraints"
@@ -3270,7 +3270,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumberbl"
+        android:background="@drawable/blacknumberbl"
         app:layout_constraintBottom_toTopOf="@+id/twentyeightTLQ"
         app:layout_constraintStart_toEndOf="@+id/twentysixBRQ"
         tools:ignore="MissingConstraints" />
@@ -3281,7 +3281,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumbertl"
+        android:background="@drawable/blacknumbertl"
         app:layout_constraintBottom_toTopOf="@+id/twentynineS26"
         app:layout_constraintStart_toStartOf="@+id/twentynineS26"
         tools:ignore="MissingConstraints" />
@@ -3292,7 +3292,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumberr"
+        android:background="@drawable/blacknumberr"
         app:layout_constraintBottom_toBottomOf="@+id/twentynineBM"
         app:layout_constraintStart_toEndOf="@+id/twentynineBM"
         tools:ignore="MissingConstraints" />
@@ -3303,7 +3303,7 @@
         android:clickable="true"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/twentynineBLQ"
         app:layout_constraintStart_toEndOf="@+id/twentynineBLQ"
         tools:ignore="MissingConstraints"
@@ -3315,7 +3315,7 @@
         android:clickable="true"
         android:layout_width="12dp"
         android:layout_height="24dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/twentysixS29"
         app:layout_constraintStart_toEndOf="@+id/twentysixS29"
         tools:ignore="MissingConstraints"
@@ -3339,7 +3339,7 @@
         android:id="@+id/twentynine"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/twentynineBM"
         app:layout_constraintStart_toEndOf="@+id/twentynineS26"
         tools:ignore="MissingConstraints"
@@ -3370,7 +3370,7 @@
         android:id="@+id/thirtyS33"
         android:layout_width="12dp"
         android:layout_height="36dp"
-        android:background="@drawable/blacknumberq"
+        android:background="@drawable/rednumberq"
         app:layout_constraintBottom_toTopOf="@+id/thirtyBRQ"
         app:layout_constraintStart_toEndOf="@+id/thirty"
         tools:ignore="MissingConstraints" />
@@ -3386,7 +3386,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/blacknumberbl"
+        android:background="@drawable/rednumberbl"
         app:layout_constraintTop_toBottomOf="@+id/thirtyS27"
         app:layout_constraintStart_toEndOf="@id/twentysevenBRQ"
         tools:ignore="MissingConstraints" />
@@ -3398,7 +3398,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/blacknumberr"
+        android:background="@drawable/rednumberr"
         app:layout_constraintBottom_toBottomOf="@+id/thirtyBM"
         app:layout_constraintStart_toEndOf="@+id/thirtyBM"
         tools:ignore="MissingConstraints" />
@@ -3407,7 +3407,7 @@
         android:id="@+id/thirtyBM"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/black"
+        android:background="@color/red"
         android:clickable="true"
         android:onClick="onClick"
         android:tag="30BM"
@@ -3422,7 +3422,7 @@
         android:clickable="true"
         android:layout_width="12dp"
         android:layout_height="36dp"
-        android:background="@drawable/blacknumbertl"
+        android:background="@drawable/rednumbertl"
         app:layout_constraintBottom_toBottomOf="@+id/twentyseven"
         app:layout_constraintStart_toEndOf="@+id/twentysevenS30"
         tools:ignore="MissingConstraints"
@@ -3549,9 +3549,9 @@
         android:id="@+id/thirtythree"
         android:layout_width="24dp"
         android:layout_height="36dp"
-        android:background="@drawable/redpiece"
-        app:layout_constraintBottom_toTopOf="@id/thirtytwoS33"
-        app:layout_constraintStart_toEndOf="@id/thirtyS33"
+        android:background="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/thirtythreeBM"
+        app:layout_constraintStart_toEndOf="@id/thirtythreeS30"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -3577,7 +3577,7 @@
         android:id="@+id/thirtytwoS33"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toTopOf="@+id/thirtytwo"
         app:layout_constraintStart_toEndOf="@+id/thirtytwoTLQ"
         tools:ignore="MissingConstraints"
@@ -3591,7 +3591,7 @@
         android:id="@+id/thirtytwoQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
-        android:background="@drawable/blacknumberq"
+        android:background="@drawable/rednumberq"
         app:layout_constraintBottom_toTopOf="@+id/thirtytwo"
         app:layout_constraintStart_toEndOf="@+id/thirtytwo"
         tools:ignore="MissingConstraints" />
@@ -3603,7 +3603,7 @@
         android:id="@+id/thirtytwoS35"
         android:layout_width="12dp"
         android:layout_height="24dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toTopOf="@+id/thirtytwoBRQ"
         app:layout_constraintStart_toEndOf="@+id/thirtytwo"
         tools:ignore="MissingConstraints"
@@ -3621,7 +3621,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@color/black"
+        android:background="@drawable/rednumberbl"
         app:layout_constraintBottom_toTopOf="@+id/thirtyoneTLQ"
         app:layout_constraintStart_toEndOf="@+id/twentynineBRQ"
         tools:ignore="MissingConstraints" />
@@ -3632,7 +3632,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/blacknumbertl"
+        android:background="@drawable/rednumbertl"
         app:layout_constraintBottom_toTopOf="@+id/thirtytwoS29"
         app:layout_constraintStart_toStartOf="@+id/thirtytwoS29"
         tools:ignore="MissingConstraints" />
@@ -3643,7 +3643,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@color/black"
+        android:background="@drawable/rednumberr"
         app:layout_constraintTop_toBottomOf="@+id/twentysixS29"
         app:layout_constraintStart_toEndOf="@+id/thirtytwoBM"
         tools:ignore="MissingConstraints" />
@@ -3654,7 +3654,7 @@
         android:clickable="true"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toBottomOf="@+id/thirtytwoBLQ"
         app:layout_constraintStart_toEndOf="@+id/thirtytwoBLQ"
         tools:ignore="MissingConstraints" />
@@ -3665,7 +3665,7 @@
         android:clickable="true"
         android:layout_width="12dp"
         android:layout_height="24dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toBottomOf="@+id/twentysix"
         app:layout_constraintStart_toEndOf="@+id/twentynineS32"
         tools:ignore="MissingConstraints"
@@ -3680,7 +3680,7 @@
         android:id="@+id/thirtyoneQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
-        android:background="@drawable/rednumberq"
+        android:background="@drawable/blacknumberq"
         app:layout_constraintBottom_toTopOf="@+id/thirtyone"
         app:layout_constraintStart_toEndOf="@+id/thirtyone"
         tools:ignore="MissingConstraints" />
@@ -3689,7 +3689,7 @@
         android:id="@+id/thirtytwo"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toTopOf="@+id/thirtytwoBM"
         app:layout_constraintStart_toEndOf="@+id/thirtytwoS29"
         tools:ignore="MissingConstraints"
@@ -3719,10 +3719,64 @@
         android:id="@+id/thirtythreeS36"
         android:layout_width="12dp"
         android:layout_height="36dp"
-        android:background="@drawable/redpiece2"
-        app:layout_constraintBottom_toTopOf="@+id/twentynineQ"
+        android:background="@drawable/blacknumberq"
+        app:layout_constraintBottom_toTopOf="@+id/thirtythreeBRQ"
         app:layout_constraintStart_toEndOf="@+id/thirtythree"
         tools:ignore="MissingConstraints" />
+
+
+
+    <ImageView
+        android:tag="33BLQ"
+        android:id="@+id/thirtythreeBLQ"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:background="@drawable/blacknumberbl"
+        app:layout_constraintBottom_toTopOf="@+id/thirtytwoTLQ"
+        app:layout_constraintStart_toEndOf="@+id/thirtyBRQ"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:tag="33BRQ"
+        android:id="@+id/thirtythreeBRQ"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:background="@drawable/blacknumberr"
+        app:layout_constraintBottom_toTopOf="@+id/thirtytwoQ"
+        app:layout_constraintStart_toEndOf="@+id/thirtythreeBM"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/thirtythreeBM"
+        android:tag="33BM"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_width="24dp"
+        android:layout_height="12dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/thirtythreeBLQ"
+        app:layout_constraintStart_toEndOf="@+id/thirtythreeBLQ"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp" />
+    <ImageView
+        android:id="@+id/thirtythreeS30"
+        android:tag="33S30"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_width="12dp"
+        android:layout_height="36dp"
+        android:background="@drawable/blacknumbertl"
+        app:layout_constraintBottom_toBottomOf="@+id/thirtyS33"
+        app:layout_constraintStart_toEndOf="@+id/thirtyS33"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp" />
+
 
     <ImageView
         android:tag="31S34"
@@ -3731,7 +3785,7 @@
         android:id="@+id/thirtyoneS34"
         android:layout_width="12dp"
         android:layout_height="24dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/thirtyone"
         app:layout_constraintStart_toEndOf="@+id/thirtyone"
         tools:ignore="MissingConstraints"
@@ -3748,7 +3802,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumberbl"
+        android:background="@drawable/blacknumberbl"
         app:layout_constraintBottom_toBottomOf="@+id/twentyeightBRQ"
         app:layout_constraintStart_toEndOf="@+id/twentyeightBRQ"
         tools:ignore="MissingConstraints" />
@@ -3759,7 +3813,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumbertl"
+        android:background="@drawable/blacknumbertl"
         app:layout_constraintBottom_toTopOf="@+id/thirtyoneS28"
         app:layout_constraintStart_toStartOf="@+id/thirtyoneS28"
         tools:ignore="MissingConstraints" />
@@ -3771,7 +3825,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/rednumberr"
+        android:background="@drawable/blacknumberr"
         app:layout_constraintBottom_toBottomOf="@+id/thirtyoneBLQ"
         app:layout_constraintStart_toEndOf="@+id/thirtyoneBM"
         tools:ignore="MissingConstraints" />
@@ -3782,7 +3836,7 @@
         android:clickable="true"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/thirtyoneBLQ"
         app:layout_constraintStart_toEndOf="@+id/thirtyoneBLQ"
         tools:ignore="MissingConstraints"
@@ -3795,7 +3849,7 @@
         android:clickable="true"
         android:layout_width="12dp"
         android:layout_height="24dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/twentytwoS25"
         app:layout_constraintStart_toEndOf="@+id/twentyeightS31"
         tools:ignore="MissingConstraints"
@@ -3811,7 +3865,7 @@
         android:id="@+id/thirtyoneS32"
         android:layout_width="24dp"
         android:layout_height="12dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/twentyeightQ"
         app:layout_constraintStart_toEndOf="@+id/thirtyoneTLQ"
         tools:ignore="MissingConstraints" />
@@ -3820,7 +3874,7 @@
         android:id="@+id/thirtyone"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:background="@color/red"
+        android:background="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/twentyeightS31"
         app:layout_constraintStart_toEndOf="@+id/thirtyoneBLQ"
         tools:ignore="MissingConstraints" />
@@ -3845,9 +3899,9 @@
         android:id="@+id/thirtysix"
         android:layout_width="36dp"
         android:layout_height="36dp"
-        android:background="@drawable/blackround"
-        app:layout_constraintBottom_toTopOf="@id/thirtyfiveS36"
-        app:layout_constraintStart_toEndOf="@id/thirtythreeS36"
+        android:background="@drawable/rednumberq"
+        app:layout_constraintBottom_toTopOf="@id/thirtysixBM"
+        app:layout_constraintStart_toEndOf="@id/thirtysixS33"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -3867,11 +3921,56 @@
         tools:ignore="MissingConstraints" />
 
 
+
+
+    <ImageView
+        android:id="@+id/thirtysixBM"
+        android:tag="36BM"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_width="36dp"
+        android:layout_height="12dp"
+        android:background="@drawable/rednumberr"
+        app:layout_constraintBottom_toBottomOf="@+id/thirtysixBLQ"
+        app:layout_constraintStart_toEndOf="@+id/thirtysixBLQ"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp" />
+    <ImageView
+        android:id="@+id/thirtysixS33"
+        android:tag="36S33"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_width="12dp"
+        android:layout_height="36dp"
+        android:background="@drawable/rednumbertl"
+        app:layout_constraintBottom_toBottomOf="@+id/thirtythreeS36"
+        app:layout_constraintStart_toEndOf="@+id/thirtythreeS36"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp" />
+    <ImageView
+        android:tag="36BLQ"
+        android:id="@+id/thirtysixBLQ"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:background="@drawable/rednumberbl"
+        app:layout_constraintBottom_toBottomOf="@id/thirtythreeBRQ"
+        app:layout_constraintStart_toEndOf="@+id/thirtythreeBRQ"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+
     <ImageView
 
         android:id="@+id/third"
         android:layout_width="24dp"
-        android:layout_height="36dp"
+        android:layout_height="48dp"
         android:background="@drawable/grayround"
         app:layout_constraintBottom_toTopOf="@id/second"
         app:layout_constraintStart_toEndOf="@id/thirtyfourBM"
@@ -3880,7 +3979,7 @@
     <TextView
         android:tag="3RD"
         android:layout_width="24dp"
-        android:layout_height="36dp"
+        android:layout_height="48dp"
         android:gravity="center"
         android:rotation="-90"
         android:text="2-1"
@@ -3896,7 +3995,7 @@
     <ImageView
         android:id="@+id/second"
         android:layout_width="24dp"
-        android:layout_height="36dp"
+        android:layout_height="48dp"
         android:background="@drawable/grayround"
         app:layout_constraintBottom_toTopOf="@id/first"
         app:layout_constraintStart_toEndOf="@+id/thirtyfourS35"
@@ -3905,7 +4004,7 @@
     <TextView
         android:tag="2ND"
         android:layout_width="24dp"
-        android:layout_height="36dp"
+        android:layout_height="48dp"
         android:gravity="center"
         android:rotation="-90"
         android:text="2-1"
@@ -3920,7 +4019,7 @@
     <ImageView
         android:id="@+id/first"
         android:layout_width="24dp"
-        android:layout_height="36dp"
+        android:layout_height="48dp"
         android:background="@drawable/grayround"
         app:layout_constraintBottom_toBottomOf="@id/thirtyfourBM"
         app:layout_constraintStart_toEndOf="@id/thirtyfourBM"
@@ -3929,7 +4028,7 @@
     <TextView
         android:tag="1ST"
         android:layout_width="24dp"
-        android:layout_height="36dp"
+        android:layout_height="48dp"
         android:gravity="center"
         android:rotation="-90"
         android:text="2-1"
@@ -4210,26 +4309,81 @@
 
     <ImageView
         android:tag="35S36"
-
         android:onClick="onClick"
         android:clickable="true"
-
         android:id="@+id/thirtyfiveS36"
         android:layout_width="36dp"
         android:layout_height="12dp"
-        android:background="@drawable/redspecial2"
+        android:background="@drawable/blacknumberq"
         app:layout_constraintBottom_toTopOf="@+id/thirtyfive"
-        app:layout_constraintStart_toEndOf="@+id/thirtytwoQ"
+        app:layout_constraintStart_toEndOf="@+id/thirtyfiveTLQ"
         tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:tag="35TLQ"
+        android:id="@+id/thirtyfiveTLQ"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:background="@drawable/blacknumbertl"
+        app:layout_constraintBottom_toTopOf="@+id/thirtyfiveS32"
+        app:layout_constraintStart_toStartOf="@+id/thirtyfiveS32"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/thirtyfiveBM"
+        android:tag="35BM"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_width="36dp"
+        android:layout_height="12dp"
+        android:background="@drawable/blacknumberr"
+        app:layout_constraintBottom_toBottomOf="@+id/thirtyfiveBLQ"
+        app:layout_constraintStart_toEndOf="@+id/thirtyfiveBLQ"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp" />
+    <ImageView
+        android:id="@+id/thirtyfiveS32"
+        android:tag="35S32"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:layout_width="12dp"
+        android:layout_height="24dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/thirtytwoS35"
+        app:layout_constraintStart_toEndOf="@+id/thirtytwoS35"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="150dp" />
+    <ImageView
+        android:tag="35BLQ"
+        android:id="@+id/thirtyfiveBLQ"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:background="@drawable/blacknumberbl"
+        app:layout_constraintBottom_toBottomOf="@id/thirtytwoBRQ"
+        app:layout_constraintStart_toEndOf="@+id/thirtytwoBRQ"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+
+
+
 
     <ImageView
         android:id="@+id/thirtyfive"
         android:layout_width="36dp"
         android:layout_height="24dp"
-        android:background="@drawable/redspecial"
-        app:layout_constraintBottom_toTopOf="@+id/thirtyoneQ"
-
-        app:layout_constraintStart_toEndOf="@+id/thirtytwoS35"
+        android:background="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/thirtyfiveBM"
+        app:layout_constraintStart_toEndOf="@+id/thirtyfiveS32"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -4256,7 +4410,7 @@
         android:id="@+id/thirtyfourS35"
         android:layout_width="36dp"
         android:layout_height="12dp"
-        android:background="@drawable/blacknumberq"
+        android:background="@drawable/rednumberq"
         app:layout_constraintBottom_toBottomOf="@+id/thirtyoneQ"
 
         app:layout_constraintStart_toEndOf="@+id/thirtyfourTLQ"
@@ -4266,7 +4420,7 @@
         android:id="@+id/thirtyfour"
         android:layout_width="36dp"
         android:layout_height="24dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toBottomOf="@+id/thirtyoneS34"
         app:layout_constraintStart_toEndOf="@+id/thirtyfourS31"
         tools:ignore="MissingConstraints" />
@@ -4295,20 +4449,9 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/blacknumbertl"
+        android:background="@drawable/rednumbertl"
         app:layout_constraintBottom_toTopOf="@+id/thirtyfourS31"
         app:layout_constraintStart_toStartOf="@+id/thirtyfourS31"
-        tools:ignore="MissingConstraints" />
-    <ImageView
-        android:tag="34BRQ"
-        android:id="@+id/thirtyfourBRQ"
-        android:layout_width="12dp"
-        android:layout_height="12dp"
-        android:onClick="onClick"
-        android:clickable="true"
-        android:background="@drawable/blacknumberr"
-        app:layout_constraintBottom_toBottomOf="@+id/twentyeightBM"
-        app:layout_constraintStart_toEndOf="@+id/twentyeightBM"
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/thirtyfourBM"
@@ -4317,7 +4460,7 @@
         android:clickable="true"
         android:layout_width="36dp"
         android:layout_height="12dp"
-        android:background="@color/black"
+        android:background="@drawable/rednumberr"
         app:layout_constraintBottom_toBottomOf="@+id/thirtyfourBLQ"
         app:layout_constraintStart_toEndOf="@+id/thirtyfourBLQ"
         tools:ignore="MissingConstraints"
@@ -4330,7 +4473,7 @@
         android:clickable="true"
         android:layout_width="12dp"
         android:layout_height="24dp"
-        android:background="@color/black"
+        android:background="@color/red"
         app:layout_constraintBottom_toBottomOf="@+id/thirtyoneS34"
         app:layout_constraintStart_toEndOf="@+id/thirtyoneS34"
         tools:ignore="MissingConstraints"
@@ -4343,7 +4486,7 @@
         android:layout_height="12dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:background="@drawable/blacknumberbl"
+        android:background="@drawable/rednumberbl"
         app:layout_constraintBottom_toBottomOf="@id/thirtyoneBLQ"
         app:layout_constraintStart_toEndOf="@+id/thirtyoneBRQ"
         tools:ignore="MissingConstraints" />
