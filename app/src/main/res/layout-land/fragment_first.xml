@@ -4582,17 +4582,29 @@
         app:layout_constraintBottom_toBottomOf="@+id/redchip"
         app:layout_constraintStart_toEndOf="@+id/blackchip"
         tools:ignore="MissingConstraints" />
-
     <TextView
-        android:id="@+id/totalbet"
-        android:layout_width="96dp"
+        android:id="@+id/playerBalance"
+        android:layout_width="200dp"
         android:layout_height="33dp"
         android:gravity="center"
         android:textColor="@color/Linen"
         android:textStyle="bold|italic"
-        android:text="Total Bet: "
-        app:layout_constraintBottom_toBottomOf="@+id/third"
-        app:layout_constraintStart_toEndOf="@+id/third"
+        android:text="Balance: $"
+        app:layout_constraintBottom_toTopOf="@+id/third"
+        app:layout_constraintStart_toEndOf="@+id/three"
+        android:onClick="onClick"
+        android:clickable="true"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:id="@+id/totalbet"
+        android:layout_width="200dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:textColor="@color/Linen"
+        android:textStyle="bold|italic"
+        android:text="Total Bet: $"
+        app:layout_constraintBottom_toBottomOf="@+id/playerBalance"
+        app:layout_constraintStart_toEndOf="@+id/playerBalance"
         android:onClick="onClick"
         android:clickable="true"
         tools:ignore="MissingConstraints" />
