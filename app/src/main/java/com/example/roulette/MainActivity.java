@@ -55,6 +55,11 @@ public class MainActivity extends AppCompatActivity {
                         | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
                         | View.SYSTEM_UI_FLAG_FULLSCREEN
                         | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
+
+
+
+
+
     }
 
 
@@ -63,12 +68,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View view) {
 //      list.add(getResources().getResourceEntryName(view.getId()));
+        list.add((String) view.getTag());
+        totalBet+=currentChip;
+        betcount.setText("Total Bet: "+totalBet);
 
-       if(currentChip!=0) {
-           list.add((String) view.getTag());
-           totalBet += currentChip;
-           betcount.setText("Total Bet: " + totalBet);
-       }
+
+
     }
 
 
@@ -80,8 +85,6 @@ public class MainActivity extends AppCompatActivity {
         return a.getResult();
 
     }
-
-
     public void pickChip(View view) {
         if(getResources().getResourceEntryName(view.getId()).equals("redchip"))
             currentChip=5;
