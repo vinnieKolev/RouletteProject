@@ -169,7 +169,7 @@
         app:layout_constraintStart_toEndOf="@+id/one"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="1BLQ"
+        android:tag="topline"
         android:id="@+id/oneBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -180,7 +180,7 @@
         app:layout_constraintEnd_toStartOf="@+id/one"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="1TLQ"
+        android:tag="1trio"
         android:id="@+id/oneTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -194,7 +194,7 @@
 
 
     <ImageView
-        android:tag="1BRQ"
+        android:tag="1double"
         android:id="@+id/oneBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -206,7 +206,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/oneBM"
-        android:tag="1BM"
+        android:tag="1street"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -236,7 +236,7 @@
 
 
     <ImageView
-        android:tag="5BLQ"
+        android:tag="1Q"
         android:id="@+id/fiveBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -247,7 +247,7 @@
         app:layout_constraintStart_toEndOf="@+id/twoBRQ"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="5TLQ"
+        android:tag="2Q"
         android:id="@+id/fiveTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -258,7 +258,7 @@
         app:layout_constraintStart_toStartOf="@+id/fiveS2"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="5BRQ"
+        android:tag="4Q"
         android:id="@+id/fiveBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -301,7 +301,7 @@
 
 
     <ImageView
-        android:tag="2BLQ"
+        android:tag="1trio"
         android:id="@+id/twoBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -312,7 +312,7 @@
         app:layout_constraintStart_toEndOf="@+id/zero"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="2TLQ"
+        android:tag="2trio"
         android:id="@+id/twoTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -323,7 +323,7 @@
         app:layout_constraintStart_toStartOf="@+id/oneBLQ"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="2BRQ"
+        android:tag="1Q"
         android:id="@+id/twoBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -348,7 +348,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/twoS0"
-        android:tag="2S0"
+        android:tag="basket"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -373,7 +373,7 @@
 
 
     <ImageView
-        android:tag="8BLQ"
+        android:tag="4Q"
         android:id="@+id/eightBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -384,7 +384,7 @@
         app:layout_constraintStart_toEndOf="@+id/fourQ"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="8TLQ"
+        android:tag="5Q"
         android:id="@+id/eightTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -395,7 +395,7 @@
         app:layout_constraintStart_toStartOf="@+id/eightS5"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="8BRQ"
+        android:tag="7Q"
         android:id="@+id/eightBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -435,7 +435,7 @@
 
 
     <ImageView
-        android:tag="4BLQ"
+        android:tag="1double"
         android:id="@+id/fourBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -446,7 +446,7 @@
         app:layout_constraintStart_toEndOf="@+id/oneBRQ"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="4TLQ"
+        android:tag="1Q"
         android:id="@+id/fourTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -457,7 +457,7 @@
         app:layout_constraintStart_toStartOf="@+id/fourS1"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="4BRQ"
+        android:tag="4double"
         android:id="@+id/fourBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -469,7 +469,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/fourBM"
-        android:tag="4BM"
+        android:tag="4street"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -494,7 +494,7 @@
         tools:layout_editor_absoluteX="99dp"
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
-        android:tag="3BLQ"
+        android:tag="2trio"
         android:id="@+id/threeBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -519,7 +519,7 @@
 
 
     <ImageView
-        android:tag="3BRQ"
+        android:tag="2Q"
         android:id="@+id/threeBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -559,7 +559,7 @@
 
 
     <ImageView
-        android:tag="6BLQ"
+        android:tag="2Q"
         android:id="@+id/sixBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -581,7 +581,7 @@
         app:layout_constraintStart_toStartOf="@+id/sevenBLQ"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="6BRQ"
+        android:tag="5Q"
         android:id="@+id/sixBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -626,7 +626,7 @@
 
 
     <ImageView
-        android:tag="7BLQ"
+        android:tag="4double"
         android:id="@+id/sevenBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -637,7 +637,7 @@
         app:layout_constraintStart_toEndOf="@+id/fourS7"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="7TLQ"
+        android:tag="4Q"
         android:id="@+id/sevenTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -649,7 +649,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:tag="7BRQ"
+        android:tag="7double"
         android:id="@+id/sevenBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -661,7 +661,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/sevenBM"
-        android:tag="7BM"
+        android:tag="7street"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -864,7 +864,7 @@
         />
 
     <ImageView
-        android:tag="21BLQ"
+        android:tag="17Q"
         android:id="@+id/twentyoneBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -877,7 +877,7 @@
 
 
     <ImageView
-        android:tag="21BRQ"
+        android:tag="20Q"
         android:id="@+id/twentyoneBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1076,7 +1076,7 @@
 
 
     <ImageView
-        android:tag="20BLQ"
+        android:tag="16Q"
         android:id="@+id/twentyBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1087,7 +1087,7 @@
         app:layout_constraintStart_toEndOf="@+id/seventeenBRQ"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="20TLQ"
+        android:tag="17Q"
         android:id="@+id/twentyTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1098,7 +1098,7 @@
         app:layout_constraintStart_toStartOf="@+id/twentyS17"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="20BRQ"
+        android:tag="19Q"
         android:id="@+id/twentyBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1187,7 +1187,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:tag="9BLQ"
+        android:tag="5Q"
         android:id="@+id/nineBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1200,7 +1200,7 @@
 
 
     <ImageView
-        android:tag="9BRQ"
+        android:tag="8Q"
         android:id="@+id/nineBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1335,7 +1335,7 @@
 
 
     <ImageView
-        android:tag="twelveBLQ"
+        android:tag="8Q"
         android:id="@+id/twelveBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1345,19 +1345,9 @@
         app:layout_constraintTop_toBottomOf="@+id/twelveS9"
         app:layout_constraintStart_toEndOf="@id/nineBRQ"
         tools:ignore="MissingConstraints" />
+
     <ImageView
-        android:tag="twelveTLQ"
-        android:id="@+id/twelveTLQ"
-        android:layout_width="12dp"
-        android:layout_height="12dp"
-        android:onClick="onClick"
-        android:clickable="true"
-        android:background="@drawable/rednumbertl"
-        app:layout_constraintBottom_toTopOf="@+id/oneS0"
-        app:layout_constraintStart_toStartOf="@+id/sevenBLQ"
-        tools:ignore="MissingConstraints" />
-    <ImageView
-        android:tag="twelveBRQ"
+        android:tag="11Q"
         android:id="@+id/twelveBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1425,7 +1415,7 @@
 
 
     <ImageView
-        android:tag="11BLQ"
+        android:tag="7Q"
         android:id="@+id/elevenBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1436,7 +1426,7 @@
         app:layout_constraintStart_toEndOf="@+id/eightBRQ"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="11TLQ"
+        android:tag="8Q"
         android:id="@+id/elevenTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1447,7 +1437,7 @@
         app:layout_constraintStart_toStartOf="@+id/elevenS8"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="11BRQ"
+        android:tag="10Q"
         android:id="@+id/elevenBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1501,7 +1491,7 @@
 
 
     <ImageView
-        android:tag="10BLQ"
+        android:tag="7double"
         android:id="@+id/tenBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1512,7 +1502,7 @@
         app:layout_constraintStart_toEndOf="@+id/sevenBRQ"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="10TLQ"
+        android:tag="7Q"
         android:id="@+id/tenTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1523,7 +1513,7 @@
         app:layout_constraintStart_toStartOf="@+id/tenS7"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="10BRQ"
+        android:tag="10double"
         android:id="@+id/tenBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1535,7 +1525,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/tenBM"
-        android:tag="10BM"
+        android:tag="10street"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -1630,7 +1620,7 @@
 
 
     <ImageView
-        android:tag="14BLQ"
+        android:tag="10Q"
         android:id="@+id/fourteenBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1641,7 +1631,7 @@
         app:layout_constraintStart_toEndOf="@+id/elevenBRQ"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="14TLQ"
+        android:tag="11Q"
         android:id="@+id/fourteenTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1652,7 +1642,7 @@
         app:layout_constraintStart_toStartOf="@+id/fourteenS11"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="14BRQ"
+        android:tag="13Q"
         android:id="@+id/fourteenBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1741,7 +1731,7 @@
 
 
     <ImageView
-        android:tag="15BLQ"
+        android:tag="11Q"
         android:id="@+id/fifteenBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1754,7 +1744,7 @@
 
 
     <ImageView
-        android:tag="15BRQ"
+        android:tag="14Q"
         android:id="@+id/fifteenBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1810,7 +1800,7 @@
 
 
     <ImageView
-        android:tag="13BLQ"
+        android:tag="10double"
         android:id="@+id/thirteenBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1821,7 +1811,7 @@
         app:layout_constraintStart_toEndOf="@+id/tenBRQ"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="13TLQ"
+        android:tag="10Q"
         android:id="@+id/thirteenTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1833,7 +1823,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:tag="13BRQ"
+        android:tag="13double"
         android:id="@+id/thirteenBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1845,7 +1835,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/thirteenBM"
-        android:tag="13BM"
+        android:tag="13street"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -1963,7 +1953,7 @@
         android:clickable="true"
         />
     <ImageView
-        android:tag="16BLQ"
+        android:tag="13double"
         android:id="@+id/sixteenBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1974,7 +1964,7 @@
         app:layout_constraintStart_toEndOf="@+id/thirteenBRQ"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="16TLQ"
+        android:tag="13Q"
         android:id="@+id/sixteenTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1985,7 +1975,7 @@
         app:layout_constraintStart_toStartOf="@+id/sixteenS13"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="16BRQ"
+        android:tag="16double"
         android:id="@+id/sixteenBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -1997,7 +1987,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/sixteenBM"
-        android:tag="16BM"
+        android:tag="16street"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -2117,7 +2107,7 @@
 
 
     <ImageView
-        android:tag="18BLQ"
+        android:tag="14Q"
         android:id="@+id/eighteenBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -2129,7 +2119,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:tag="18BRQ"
+        android:tag="17Q"
         android:id="@+id/eighteenBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -2200,7 +2190,7 @@
 
 
     <ImageView
-        android:tag="17BLQ"
+        android:tag="13Q"
         android:id="@+id/seventeenBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -2211,7 +2201,7 @@
         app:layout_constraintStart_toEndOf="@+id/fourteenBRQ"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="17TLQ"
+        android:tag="14Q"
         android:id="@+id/seventeenTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -2222,7 +2212,7 @@
         app:layout_constraintStart_toStartOf="@+id/seventeenS14"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="17BRQ"
+        android:tag="16Q"
         android:id="@+id/seventeenBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -2317,7 +2307,7 @@
 
 
     <ImageView
-        android:tag="19BLQ"
+        android:tag="16double"
         android:id="@+id/nineteenBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -2327,20 +2317,21 @@
         app:layout_constraintBottom_toBottomOf="@+id/sixteenBRQ"
         app:layout_constraintStart_toEndOf="@+id/sixteenBRQ"
         tools:ignore="MissingConstraints" />
+
     <ImageView
-        android:tag="19TLQ"
         android:id="@+id/nineteenTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
-        android:onClick="onClick"
-        android:clickable="true"
         android:background="@drawable/rednumbertl"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:tag="16Q"
         app:layout_constraintBottom_toTopOf="@+id/nineteenS16"
         app:layout_constraintStart_toStartOf="@+id/nineteenS16"
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:tag="19BRQ"
+        android:tag="19double"
         android:id="@+id/nineteenBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -2352,7 +2343,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/nineteenBM"
-        android:tag="19BM"
+        android:tag="19street"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -2440,8 +2431,7 @@
         app:layout_constraintBottom_toTopOf="@+id/twenty"
         app:layout_constraintStart_toEndOf="@+id/twentyTLQ"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="150dp" />
+        />
 
     <ImageView
         android:tag="4Q"
@@ -2470,7 +2460,7 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
-        android:tag="22BLQ"
+        android:tag="19double"
         android:id="@+id/twentytwoBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -2481,7 +2471,7 @@
         app:layout_constraintStart_toEndOf="@+id/nineteenBRQ"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="22TLQ"
+        android:tag="19Q"
         android:id="@+id/twentytwoTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -2492,7 +2482,7 @@
         app:layout_constraintStart_toStartOf="@+id/twentytwoS19"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="22BRQ"
+        android:tag="22double"
         android:id="@+id/twentytwoBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -2504,7 +2494,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentytwoBM"
-        android:tag="22BM"
+        android:tag="22street"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -2623,7 +2613,7 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <ImageView
-        android:tag="24BLQ"
+        android:tag="20Q"
         android:id="@+id/twentyfourBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -2635,7 +2625,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:tag="24BRQ"
+        android:tag="23Q"
         android:id="@+id/twentyfourBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -2862,7 +2852,7 @@
 
 
     <ImageView
-        android:tag="23BLQ"
+        android:tag="19Q"
         android:id="@+id/twentythreeBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -2873,7 +2863,7 @@
         app:layout_constraintStart_toEndOf="@+id/twentyoneBRQ"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="23TLQ"
+        android:tag="20Q"
         android:id="@+id/twentythreeTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -2884,7 +2874,7 @@
         app:layout_constraintStart_toStartOf="@+id/twentythreeS20"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="23BRQ"
+        android:tag="22Q"
         android:id="@+id/twentythreeBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -2975,7 +2965,7 @@
         tools:layout_editor_absoluteX="99dp"
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
-        android:tag="27BLQ"
+        android:tag="23Q"
         android:id="@+id/twentysevenBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -2988,7 +2978,7 @@
 
 
     <ImageView
-        android:tag="27BRQ"
+        android:tag="26Q"
         android:id="@+id/twentysevenBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -3025,23 +3015,17 @@
          />
 
 
-
-
-
-
-
     <ImageView
-        android:tag="26S27"
-        android:onClick="onClick"
-        android:clickable="true"
         android:id="@+id/twentysixS27"
         android:layout_width="24dp"
         android:layout_height="12dp"
         android:background="@color/black"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:tag="26S27"
         app:layout_constraintBottom_toTopOf="@+id/twentysix"
         app:layout_constraintStart_toEndOf="@+id/twentysixTLQ"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="149dp" />
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:tag="26S29"
@@ -3060,7 +3044,7 @@
 
 
     <ImageView
-        android:tag="26BLQ"
+        android:tag="22Q"
         android:id="@+id/twentysixBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -3136,7 +3120,7 @@
 
 
     <ImageView
-        android:tag="25BLQ"
+        android:tag="22double"
         android:id="@+id/twentyfiveBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -3147,7 +3131,7 @@
         app:layout_constraintStart_toEndOf="@+id/twentytwoBRQ"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="25TLQ"
+        android:tag="22Q"
         android:id="@+id/twentyfiveTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -3159,7 +3143,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:tag="25BRQ"
+        android:tag="25double"
         android:id="@+id/twentyfiveBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -3171,7 +3155,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentyfiveBM"
-        android:tag="19BM"
+        android:tag="25street"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -3275,7 +3259,7 @@
         app:layout_constraintStart_toEndOf="@+id/twentysixBRQ"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="29TLQ"
+        android:tag="26Q"
         android:id="@+id/twentynineTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -3380,7 +3364,7 @@
 
 
     <ImageView
-        android:tag="30BLQ"
+        android:tag="26Q"
         android:id="@+id/thirtyBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -3392,7 +3376,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:tag="30BRQ"
+        android:tag="29Q"
         android:id="@+id/thirtyBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -3445,7 +3429,7 @@
         />
 
     <ImageView
-        android:tag="28TLQ"
+        android:tag="25Q"
         android:id="@+id/twentyeightTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -3456,7 +3440,7 @@
         app:layout_constraintStart_toStartOf="@+id/twentyeightS25"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="28BRQ"
+        android:tag="28double"
         android:id="@+id/twentyeightBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -3468,7 +3452,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentyeightBM"
-        android:tag="22BM"
+        android:tag="28street"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -3493,7 +3477,7 @@
         tools:layout_editor_absoluteX="99dp"
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
-        android:tag="28BLQ"
+        android:tag="25double"
         android:id="@+id/twentyeightBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -3626,7 +3610,7 @@
         app:layout_constraintStart_toEndOf="@+id/twentynineBRQ"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="32TLQ"
+        android:tag="29Q"
         android:id="@+id/thirtytwoTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -3637,7 +3621,7 @@
         app:layout_constraintStart_toStartOf="@+id/thirtytwoS29"
         tools:ignore="MissingConstraints" />
     <ImageView
-        android:tag="32BRQ"
+        android:tag="31Q"
         android:id="@+id/thirtytwoBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -3727,7 +3711,7 @@
 
 
     <ImageView
-        android:tag="33BLQ"
+        android:tag="29Q"
         android:id="@+id/thirtythreeBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -3740,7 +3724,7 @@
 
 
     <ImageView
-        android:tag="33BRQ"
+        android:tag="32Q"
         android:id="@+id/thirtythreeBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -3796,7 +3780,7 @@
 
 
     <ImageView
-        android:tag="31BLQ"
+        android:tag="28double"
         android:id="@+id/thirtyoneBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -3819,7 +3803,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:tag="31BRQ"
+        android:tag="31double"
         android:id="@+id/thirtyoneBRQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -3831,7 +3815,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/thirtyoneBM"
-        android:tag="31BM"
+        android:tag="31street"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -3950,7 +3934,7 @@
         tools:layout_editor_absoluteX="99dp"
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
-        android:tag="36BLQ"
+        android:tag="32Q"
         android:id="@+id/thirtysixBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -4321,7 +4305,7 @@
 
 
     <ImageView
-        android:tag="35TLQ"
+        android:tag="32Q"
         android:id="@+id/thirtyfiveTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -4358,7 +4342,7 @@
         tools:layout_editor_absoluteX="99dp"
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
-        android:tag="35BLQ"
+        android:tag="31Q"
         android:id="@+id/thirtyfiveBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -4443,7 +4427,7 @@
 
 
     <ImageView
-        android:tag="34TLQ"
+        android:tag="31Q"
         android:id="@+id/thirtyfourTLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -4480,7 +4464,7 @@
         tools:layout_editor_absoluteX="99dp"
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
-        android:tag="34BLQ"
+        android:tag="31double"
         android:id="@+id/thirtyfourBLQ"
         android:layout_width="12dp"
         android:layout_height="12dp"
@@ -4592,6 +4576,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="175dp"
         android:text="Spin"
+        android:onClick="spin"
+
         android:textColor="@color/Linen"
         app:layout_constraintBottom_toBottomOf="@+id/redchip"
         app:layout_constraintStart_toEndOf="@+id/blackchip"
