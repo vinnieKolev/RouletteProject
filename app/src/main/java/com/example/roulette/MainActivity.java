@@ -72,8 +72,11 @@ public class MainActivity extends AppCompatActivity {
         totalBet+=currentChip;
         betcount.setText("Total Bet: "+totalBet);
 
-
-
+        if(currentChip!=0) {
+            list.add((String) view.getTag());
+            totalBet += currentChip;
+            betcount.setText("Total Bet: " + totalBet);
+        }
     }
 
 
