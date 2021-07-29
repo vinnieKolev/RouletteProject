@@ -270,7 +270,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/fiveBM"
-        android:tag="5BM"
+        android:tag="4S5"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -283,7 +283,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/fiveS2"
-        android:tag="5S2"
+        android:tag="2S5"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -335,7 +335,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twoBM"
-        android:tag="2BM"
+        android:tag="1S2"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -407,7 +407,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/eightBM"
-        android:tag="8BM"
+        android:tag="7S8"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -420,7 +420,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/eightS5"
-        android:tag="8S5"
+        android:tag="5S8"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -482,7 +482,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/fourS1"
-        android:tag="4S0"
+        android:tag="1S4"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -531,7 +531,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/threeBM"
-        android:tag="3BM"
+        android:tag="2S3"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -593,7 +593,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/sixBM"
-        android:tag="6BM"
+        android:tag="5S6"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -606,7 +606,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/sixS3"
-        android:tag="6S3"
+        android:tag="3S6"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -674,7 +674,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/sevenS4"
-        android:tag="7S4"
+        android:tag="4S7"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -850,13 +850,13 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:tag="21S24"
         android:id="@+id/twentyoneS24"
         android:layout_width="12dp"
         android:layout_height="36dp"
-        android:onClick="onClick"
-        android:clickable="true"
         android:background="@drawable/rednumberq"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:tag="21S24"
         app:layout_constraintBottom_toTopOf="@+id/twentyoneBRQ"
         app:layout_constraintStart_toEndOf="@+id/twentone"
         tools:ignore="MissingConstraints"
@@ -889,7 +889,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentyoneBM"
-        android:tag="21BM"
+        android:tag="20S21"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -902,7 +902,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/twentyoneS18"
-        android:tag="21S18"
+        android:tag="18S21"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -1110,7 +1110,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentyBM"
-        android:tag="20BM"
+        android:tag="19S20"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -1121,7 +1121,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentyS17"
-        android:tag="20S17"
+        android:tag="17S20"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -1212,7 +1212,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/nineBM"
-        android:tag="9BM"
+        android:tag="8S9"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -1225,7 +1225,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/nineS6"
-        android:tag="9S6"
+        android:tag="6S9"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -1359,7 +1359,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twelveBM"
-        android:tag="twelveBM"
+        android:tag="11S12"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -1372,7 +1372,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/twelveS9"
-        android:tag="6S3"
+        android:tag="9S12"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -1449,7 +1449,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/elevenBM"
-        android:tag="5BM"
+        android:tag="10S11"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -1462,7 +1462,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/elevenS8"
-        android:tag="11S8"
+        android:tag="8S11"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -1538,7 +1538,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/tenS7"
-        android:tag="10S7"
+        android:tag="7S10"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -1654,7 +1654,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/fourteenBM"
-        android:tag="14BM"
+        android:tag="13S14"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -1665,7 +1665,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/fourteenS11"
-        android:tag="14S11"
+        android:tag="11S14"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -1756,7 +1756,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/fifteenBM"
-        android:tag="15BM"
+        android:tag="14S15"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -1769,7 +1769,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/fifteenS12"
-        android:tag="15S12"
+        android:tag="12S15"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -1848,7 +1848,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/thirteenS10"
-        android:tag="13S10"
+        android:tag="10S13"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -2000,7 +2000,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/sixteenS13"
-        android:tag="16S13"
+        android:tag="13S16"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -2131,7 +2131,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/eighteenBM"
-        android:tag="18BM"
+        android:tag="17S18"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -2144,7 +2144,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/eighteenS15"
-        android:tag="18S15"
+        android:tag="15S18"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -2224,7 +2224,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/seventeenBM"
-        android:tag="5BM"
+        android:tag="16S17"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -2237,7 +2237,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/seventeenS14"
-        android:tag="17S14"
+        android:tag="14S17"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -2356,7 +2356,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/nineteenS16"
-        android:tag="19S16"
+        android:tag="16S19"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -2507,7 +2507,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/twentytwoS19"
-        android:tag="22S19"
+        android:tag="19S22"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -2643,14 +2643,14 @@
         android:background="@color/black"
         android:clickable="true"
         android:onClick="onClick"
-        android:tag="24BM"
+        android:tag="23S24"
         app:layout_constraintBottom_toTopOf="@+id/elevenS12"
         app:layout_constraintStart_toEndOf="@+id/twentyfourBLQ"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/twentyfourS21"
-        android:tag="24S21"
+        android:tag="21S24"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -2886,7 +2886,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentythreeBM"
-        android:tag="23BM"
+        android:tag="22S23"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -2898,7 +2898,7 @@
          />
     <ImageView
         android:id="@+id/twentythreeS20"
-        android:tag="23S20"
+        android:tag="20S23"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -2990,7 +2990,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentysevenBM"
-        android:tag="27BM"
+        android:tag="26S27"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -3003,7 +3003,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/twentysevenS24"
-        android:tag="27S24"
+        android:tag="24S27"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -3078,7 +3078,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentysixBM"
-        android:tag="26BM"
+        android:tag="25S26"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -3089,7 +3089,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentysixS23"
-        android:tag="26S23"
+        android:tag="23S26"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -3168,7 +3168,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/twentyfiveS22"
-        android:tag="22S22"
+        android:tag="22S25"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -3282,7 +3282,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/twentynineBM"
-        android:tag="29BM"
+        android:tag="28S29"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -3294,7 +3294,7 @@
         />
     <ImageView
         android:id="@+id/twentynineS26"
-        android:tag="23S26"
+        android:tag="26S29"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -3394,14 +3394,14 @@
         android:background="@color/red"
         android:clickable="true"
         android:onClick="onClick"
-        android:tag="30BM"
+        android:tag="29S30"
         app:layout_constraintBottom_toTopOf="@+id/elevenS12"
         app:layout_constraintStart_toEndOf="@+id/thirtyBLQ"
         tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/thirtyS27"
-        android:tag="30S21"
+        android:tag="27S30"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -3465,7 +3465,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/twentyeightS25"
-        android:tag="22S19"
+        android:tag="25S28"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -3633,7 +3633,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/thirtytwoBM"
-        android:tag="32BM"
+        android:tag="31S32"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -3644,7 +3644,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/thirtytwoS29"
-        android:tag="32S29"
+        android:tag="29S32"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -3736,7 +3736,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/thirtythreeBM"
-        android:tag="33BM"
+        android:tag="32S33"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="24dp"
@@ -3749,7 +3749,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/thirtythreeS30"
-        android:tag="33S30"
+        android:tag="30S33"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -3828,7 +3828,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/thirtyoneS28"
-        android:tag="31S29"
+        android:tag="28S31"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -3909,7 +3909,7 @@
 
     <ImageView
         android:id="@+id/thirtysixBM"
-        android:tag="36BM"
+        android:tag="35S36"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="36dp"
@@ -3922,7 +3922,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/thirtysixS33"
-        android:tag="36S33"
+        android:tag="33S36"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -4317,7 +4317,7 @@
         tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/thirtyfiveBM"
-        android:tag="35BM"
+        android:tag="34S35"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="36dp"
@@ -4330,7 +4330,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/thirtyfiveS32"
-        android:tag="35S32"
+        android:tag="32S35"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
@@ -4452,7 +4452,7 @@
         tools:layout_editor_absoluteY="150dp" />
     <ImageView
         android:id="@+id/thirtyfourS31"
-        android:tag="34S31"
+        android:tag="31S34"
         android:onClick="onClick"
         android:clickable="true"
         android:layout_width="12dp"
