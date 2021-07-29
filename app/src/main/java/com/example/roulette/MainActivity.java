@@ -15,7 +15,6 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.example.roulette.databinding.ActivityMainBinding;
 
 import android.view.Menu;
 import android.view.MenuItem;
@@ -30,7 +29,6 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration appBarConfiguration;
-    private ActivityMainBinding binding;
     TextView betcount;
     List<String> list = new ArrayList<String>();
     int currentChip=0;
@@ -55,8 +53,6 @@ public class MainActivity extends AppCompatActivity {
                         | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
                         | View.SYSTEM_UI_FLAG_FULLSCREEN
                         | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
-
-
 
 
 
