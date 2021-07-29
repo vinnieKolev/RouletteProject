@@ -2,8 +2,6 @@ package com.example.roulette;
 
 public class Payouts {
 
-    // This is a Utility class. No instances.
-    private Payouts() {}
 
 
     public static int straightBet(int bet) {

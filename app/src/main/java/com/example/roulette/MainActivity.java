@@ -25,25 +25,38 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class MainActivity extends AppCompatActivity {
-
-    private AppBarConfiguration appBarConfiguration;
     TextView betcount;
+    TextView playerBal;
+
     List<String> list = new ArrayList<String>();
+    RouletteWheel a = new RouletteWheel();
+    Payouts payouts=new Payouts();
+
+    Scanner input = new Scanner(System.in);
+    Player player=new Player();
     int currentChip=0;
     int totalBet=0;
+
 
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.fragment_first);
 
+
+
         betcount = (TextView) findViewById(R.id.totalbet);
-        betcount.setText("Total Bet: "+totalBet);
+        playerBal= (TextView) findViewById(R.id.playerBalance);
+
+
+
+
+
 
 
         getWindow().getDecorView().setSystemUiVisibility(
@@ -59,28 +72,32 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
-
     public void onClick(View view) {
 //      list.add(getResources().getResourceEntryName(view.getId()));
+
+        if(currentChip!=0 && player.getBalance()-currentChip>=0){
         list.add((String) view.getTag());
         totalBet+=currentChip;
-        betcount.setText("Total Bet: "+totalBet);
+        player.takeBalance(currentChip);
+        betcount.setText("Total Bet: $"+totalBet);
+        playerBal.setText("Balance: $"+player.getBalance());
 
-
-
+        }
     }
-
 
     public int spin(View view){
-
-        RouletteWheel a = new RouletteWheel();
         a.SpinWheel();
-        System.out.println(a.getResult());
-        return a.getResult();
+        System.out.println(a.getResult()+"------------------------------------");
+        System.out.println(a.getColor());
+        System.out.println(a.getEvenOdd());
+        System.out.println(a.getDozen());
+        System.out.println(a.getColumn());
+        System.out.println(a.getHighLow());
 
+
+        return a.getResult();
     }
+
     public void pickChip(View view) {
         if(getResources().getResourceEntryName(view.getId()).equals("redchip"))
             currentChip=5;
@@ -95,4 +112,7 @@ public class MainActivity extends AppCompatActivity {
         if(getResources().getResourceEntryName(view.getId()).equals("blackchip"))
             currentChip=100;
     }
-}
+
+
+
+    }
