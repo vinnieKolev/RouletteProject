@@ -25,6 +25,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/oneX"
+
         android:tag="1"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -79,6 +81,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/TWOX"
+
         android:tag="2"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -129,6 +133,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/THREEX"
+
         android:tag="3"
         android:layout_width="24dp"
         android:layout_height="36dp"
@@ -708,6 +714,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/FOURX"
+
         android:tag="4"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -758,6 +766,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/FIVEX"
+
         android:tag="5"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -783,6 +793,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/SIXX"
+
         android:tag="6"
         android:layout_width="24dp"
         android:layout_height="36dp"
@@ -928,6 +940,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/SEVENX"
+
         android:tag="7"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -1005,6 +1019,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/EIGHTX"
+
         android:tag="8"
 
         android:layout_width="24dp"
@@ -1031,6 +1047,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/TENX"
+
         android:tag="10"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -1144,6 +1162,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/ELEVENX"
+
         android:layout_width="24dp"
 
         android:layout_height="24dp"
@@ -1170,6 +1190,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/NINEX"
+
         android:tag="9"
 
         android:layout_width="24dp"
@@ -1302,6 +1324,8 @@
         />
 
     <TextView
+        android:id="@+id/TWELVEX"
+
         android:tag="12"
 
         android:layout_width="24dp"
@@ -1562,6 +1586,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/FIFTEENX"
+
         android:tag="15"
 
         android:layout_width="24dp"
@@ -1702,6 +1728,8 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <TextView
+        android:id="@+id/FOURTEENX"
+
         android:tag="14"
 
         android:layout_width="24dp"
@@ -1884,6 +1912,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/THIRTEENX"
+
         android:tag="13"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -1909,6 +1939,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/SIXTEENX"
+
         android:tag="16"
 
         android:layout_width="24dp"
@@ -2023,6 +2055,8 @@
         />
 
     <TextView
+        android:id="@+id/SEVENTEENX"
+
         android:tag="17"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -2074,6 +2108,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/EIGHTEENX"
+
         android:tag="18"
         android:layout_width="24dp"
         android:layout_height="36dp"
@@ -2261,6 +2297,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/NINETEENX"
+
         android:tag="19"
 
         android:layout_width="24dp"
@@ -2379,6 +2417,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/TWENTYX"
+
         android:layout_width="24dp"
 
         android:layout_height="24dp"
@@ -2405,6 +2445,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/TWENTONEYX"
+
         android:tag="21"
         android:layout_width="24dp"
         android:layout_height="36dp"
@@ -2557,6 +2599,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/TWENTYTWOX"
+
         android:tag="22"
         android:textStyle="bold|italic"
         android:textSize="12dp"
@@ -2689,6 +2733,7 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <TextView
+        android:id="@+id/TWENTYTHREEX"
 
         android:tag="23"
         android:layout_width="24dp"
@@ -2715,6 +2760,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/TWENTYFIVEX"
+
         android:tag="25"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -2765,6 +2812,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/TWENTYSIXX"
+
         android:tag="26"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -2792,6 +2841,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/TWENTYFOURX"
 
         android:tag="24"
         android:layout_width="24dp"
@@ -2935,6 +2985,8 @@
         tools:layout_editor_absoluteY="150dp" />
 
     <TextView
+        android:id="@+id/TWENTYSEVENX"
+
         android:tag="27"
         android:layout_width="24dp"
         android:layout_height="36dp"
@@ -3191,6 +3243,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/THIRTYX"
+
         android:tag="30"
         android:layout_width="24dp"
         android:layout_height="36dp"
@@ -3332,6 +3386,7 @@
 
     <TextView
         android:tag="29"
+        android:id="@+id/TWENTYNINEX"
 
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -3514,6 +3569,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/TWENTYEIGHTX"
+
         android:tag="28"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -3539,6 +3596,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/THIRTYTHREEX"
+
         android:tag="33"
         android:layout_width="24dp"
         android:layout_height="36dp"
@@ -3681,6 +3740,7 @@
 
     <TextView
         android:tag="32"
+        android:id="@+id/THIRTYTWOX"
 
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -3864,6 +3924,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/THIRTYONEX"
+
         android:tag="31"
         android:layout_width="24dp"
         android:layout_height="24dp"
@@ -3889,6 +3951,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/THIRTYSIXX"
+
         android:tag="36"
         android:layout_width="36dp"
         android:layout_height="36dp"
@@ -3961,6 +4025,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/thirdcolX"
+
         android:tag="3RD"
         android:layout_width="24dp"
         android:layout_height="48dp"
@@ -3986,6 +4052,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/secondcolX"
+
         android:tag="2ND"
         android:layout_width="24dp"
         android:layout_height="48dp"
@@ -4010,6 +4078,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/firstcolX"
+
         android:tag="1ST"
         android:layout_width="24dp"
         android:layout_height="48dp"
@@ -4035,6 +4105,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/firstDOZENX"
+
         android:tag="1-12"
         android:layout_width="192dp"
         android:layout_height="33dp"
@@ -4060,6 +4132,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/seconddozenX"
+
         android:tag="13-24"
         android:layout_width="192dp"
         android:layout_height="33dp"
@@ -4084,6 +4158,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/thirddozenX"
+
         android:layout_width="192dp"
         android:layout_height="33dp"
         android:clickable="true"
@@ -4107,6 +4183,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/lowX"
+
         android:tag="1-18"
         android:layout_width="96dp"
         android:layout_height="33dp"
@@ -4131,6 +4209,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/EVENX"
+
         android:tag="EVEN"
         android:layout_width="96dp"
         android:layout_height="33dp"
@@ -4154,6 +4234,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/redX"
+
         android:tag="RED"
         android:layout_width="96dp"
         android:layout_height="33dp"
@@ -4179,6 +4261,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/BLACKX"
+
         android:tag="BLACK"
         android:layout_width="96dp"
         android:layout_height="33dp"
@@ -4203,6 +4287,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/oddX"
+
         android:tag="ODD"
         android:layout_width="96dp"
         android:layout_height="33dp"
@@ -4226,6 +4312,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/highX"
+
         android:tag="19-36"
         android:layout_width="96dp"
         android:layout_height="33dp"
@@ -4250,6 +4338,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/zerotextX"
+
         android:tag="0"
         android:layout_width="45dp"
         android:layout_height="72dp"
@@ -4276,6 +4366,8 @@
 
 
     <TextView
+        android:id="@+id/dubzerotextX"
+
         android:tag="00"
         android:layout_width="45dp"
         android:layout_height="72dp"
@@ -4371,6 +4463,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/THIRTYFIVEX"
+
         android:tag="35"
         android:textStyle="bold|italic"
         android:textSize="12dp"
@@ -4410,6 +4504,8 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
+        android:id="@+id/THIRTYFOURX"
+
         android:tag="34"
         android:layout_width="36dp"
         android:layout_height="24dp"
