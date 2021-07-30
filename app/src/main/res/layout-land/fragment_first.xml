@@ -4705,30 +4705,4 @@
         android:clickable="true"
         tools:ignore="MissingConstraints" />
 
-    <EditText
-        android:id="@+id/Balance"
-        android:layout_width="95dp"
-        android:layout_height="41dp"
-        android:ems="10"
-        android:hint="Enter Balance"
-        android:inputType="number"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        tools:ignore="MissingConstraints"
-        app:layout_constraintBottom_toBottomOf="@+id/totalbet"
-        app:layout_constraintStart_toEndOf="@+id/totalbet"
-        tools:layout_editor_absoluteX="413dp"
-        tools:layout_editor_absoluteY="0dp" />
-
-    <Button
-        android:id="@+id/submitbutton"
-        android:layout_width="87dp"
-        android:layout_height="36dp"
-        android:text="Submit"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        app:layout_constraintBottom_toBottomOf="@+id/Balance"
-        app:layout_constraintStart_toEndOf="@+id/Balance"
-        tools:layout_editor_absoluteX="519dp"
-        tools:layout_editor_absoluteY="5dp"
-        tools:ignore="MissingConstraints" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,6 +14,9 @@ public class RouletteWheel {
     }
 
 
+
+
+
     public char getColor(){
 
         if(result==1||result==3||result==5||result==7||result==9||result==12||result==14||result==16||result==18||result==19||result==21||result==23||result==25||result==27||result==30||result==32||result==34||result==36){
