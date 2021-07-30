@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
 
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -21,7 +20,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.ImageView;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -37,15 +37,17 @@ public class MainActivity extends AppCompatActivity {
     RouletteWheel a = new RouletteWheel();
     Payouts payouts=new Payouts();
 
+    EditText inputbalance;
+    TextView Balanceview;
+    int inputedbalance;
+    String inputstring;
+    Button submit;
+
     Scanner input = new Scanner(System.in);
     Player player=new Player();
     int currentChip=0;
     int totalBet=0;
 
-    ImageView addview;
-    ConstraintLayout layout;
-    TextView currentText;
-    ImageView currentImage;
 
 
 
@@ -54,12 +56,30 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_first);
 
-        layout = findViewById(R.id.FirstFragment);
-        addview = findViewById(R.id.red);
 
 
         betcount = (TextView) findViewById(R.id.totalbet);
         playerBal= (TextView) findViewById(R.id.playerBalance);
+
+        inputbalance = (EditText)findViewById(R.id.Balance);
+        Balanceview = (TextView)findViewById(R.id.playerBalance);
+        Balanceview.setText("Balance: $"+ player.getBalance());
+
+        submit = (Button)findViewById(R.id.submitbutton);
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                inputstring = inputbalance.getText().toString();
+                inputedbalance = Integer.valueOf(inputstring);
+                player.setBalance(inputedbalance);
+                Balanceview.setText("Balance: $"+ player.getBalance());
+            }
+        });
+
+
+
+
+
 
 
 
@@ -70,42 +90,14 @@ public class MainActivity extends AppCompatActivity {
                         | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
                         | View.SYSTEM_UI_FLAG_FULLSCREEN
                         | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
+
+
+
     }
 
 
     public void onClick(View view) {
 //      list.add(getResources().getResourceEntryName(view.getId()));
-
-    //  System.out.print(getResources().getResourceEntryName(view.getId()));
-
-
-       String temp=getResources().getResourceEntryName(view.getId());
-
-
-
-
-
-        if(temp.contains("X"))
-       {currentText = findViewById(view.getId());
-           ImageView imageView = new ImageView(MainActivity.this);
-           imageView.setImageResource(R.drawable.redchip);
-           addvieW(imageView, 50, 50);
-
-       }else {
-
-
-            currentImage=findViewById(view.getId());
-            ImageView imageView = new ImageView(MainActivity.this);
-            imageView.setImageResource(R.drawable.redchip);
-            addvieW2(imageView, 50, 50);
-
-       }
-
-
-
-
-
-
 
         if(currentChip!=0 && player.getBalance()-currentChip>=0){
         list.add((String) view.getTag());
@@ -146,53 +138,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    private void addvieW(ImageView imageView, int width, int height) {
-        ConstraintLayout.LayoutParams params = new ConstraintLayout.LayoutParams(width, height);
 
-        ConstraintLayout.LayoutParams oldparams = (ConstraintLayout.LayoutParams) currentText.getLayoutParams();
-
-
-        params.topToBottom = oldparams.topToBottom;
-        params.startToEnd = oldparams.startToEnd;
-        params.bottomToBottom = oldparams.bottomToBottom;
-        params.bottomToTop= oldparams.bottomToTop;
-        params.endToStart = oldparams.endToStart;
-        params.startToStart = oldparams.startToStart;
-        params.endToEnd = oldparams.endToEnd;
-
-
-
-        // setting the margin in linearlayout
-
-
-        imageView.setLayoutParams(params);
-
-        // adding the image in layout
-        layout.addView(imageView);
-    }
-
-    private void addvieW2(ImageView imageView, int width, int height) {
-        ConstraintLayout.LayoutParams params = new ConstraintLayout.LayoutParams(width, height);
-
-        ConstraintLayout.LayoutParams oldparams = (ConstraintLayout.LayoutParams) currentImage.getLayoutParams();
-
-
-        params.topToBottom = oldparams.topToBottom;
-        params.startToEnd = oldparams.startToEnd;
-        params.bottomToBottom = oldparams.bottomToBottom;
-        params.bottomToTop= oldparams.bottomToTop;
-        params.endToStart = oldparams.endToStart;
-        params.startToStart = oldparams.startToStart;
-        params.endToEnd = oldparams.endToEnd;
-
-
-
-        // setting the margin in linearlayout
-
-
-        imageView.setLayoutParams(params);
-
-        // adding the image in layout
-        layout.addView(imageView);
-    }
     }
